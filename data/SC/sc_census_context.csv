@@ -1,0 +1,25 @@
+analysis_region,analysis_region_type,analysis_region_id,product,variable,value
+South Carolina,state,45,acs_5yr_2022,total_population,5142750
+South Carolina,state,45,acs_5yr_2022,total_population_moe,-555555555
+South Carolina,state,45,acs_5yr_2022,median_age,40.0
+South Carolina,state,45,acs_5yr_2022,median_age_moe,0.2
+South Carolina,state,45,acs_5yr_2022,percent_male,48.8
+South Carolina,state,45,acs_5yr_2022,population_under_18,1103927
+South Carolina,state,45,acs_5yr_2022,population_under_18_moe,492
+South Carolina,state,45,acs_5yr_2022,population_65_plus,938517
+South Carolina,state,45,acs_5yr_2022,population_65_plus_moe,493
+South Carolina,state,45,acs_5yr_2022,percent_white_alone,65.0
+South Carolina,state,45,acs_5yr_2022,percent_black_alone,25.8
+South Carolina,state,45,acs_5yr_2022,percent_asian_alone,1.7
+South Carolina,state,45,acs_5yr_2022,percent_hispanic_or_latino,6.2
+South Carolina,state,45,acs_5yr_2022,median_household_income,63623
+South Carolina,state,45,acs_5yr_2022,median_household_income_moe,486
+South Carolina,state,45,acs_5yr_2022,percent_below_poverty_all_people,14.4
+South Carolina,state,45,acs_5yr_2022,percent_bachelor_or_higher_25plus,30.6
+South Carolina,state,45,acs_5yr_2022,unemployment_rate,5.2
+South Carolina,state,45,acs_5yr_2022,percent_no_health_insurance,10.2
+South Carolina,state,45,acs_5yr_2022,percent_no_vehicle_available,5.7
+South Carolina,state,45,acs_5yr_2022,percent_broadband_internet_subscription,85.0
+South Carolina,state,45,acs_5yr_2022,percent_occupants_per_room_1_01_to_1_50,1.4
+South Carolina,state,45,acs_5yr_2022,percent_occupants_per_room_1_51_plus,0.6
+South Carolina,state,45,population_estimates_2022,POPESTIMATE2022,5282634

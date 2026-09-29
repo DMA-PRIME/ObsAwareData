@@ -1,0 +1,25 @@
+analysis_region,analysis_region_type,analysis_region_id,product,variable,value
+New Mexico,state,35,acs_5yr_2022,total_population,2112463
+New Mexico,state,35,acs_5yr_2022,total_population_moe,-555555555
+New Mexico,state,35,acs_5yr_2022,median_age,38.6
+New Mexico,state,35,acs_5yr_2022,median_age_moe,0.1
+New Mexico,state,35,acs_5yr_2022,percent_male,49.8
+New Mexico,state,35,acs_5yr_2022,population_under_18,473478
+New Mexico,state,35,acs_5yr_2022,population_under_18_moe,485
+New Mexico,state,35,acs_5yr_2022,population_65_plus,382672
+New Mexico,state,35,acs_5yr_2022,population_65_plus_moe,556
+New Mexico,state,35,acs_5yr_2022,percent_white_alone,59.2
+New Mexico,state,35,acs_5yr_2022,percent_black_alone,2.1
+New Mexico,state,35,acs_5yr_2022,percent_asian_alone,1.6
+New Mexico,state,35,acs_5yr_2022,percent_hispanic_or_latino,49.8
+New Mexico,state,35,acs_5yr_2022,median_household_income,58722
+New Mexico,state,35,acs_5yr_2022,median_household_income_moe,581
+New Mexico,state,35,acs_5yr_2022,percent_below_poverty_all_people,18.3
+New Mexico,state,35,acs_5yr_2022,percent_bachelor_or_higher_25plus,29.1
+New Mexico,state,35,acs_5yr_2022,unemployment_rate,6.2
+New Mexico,state,35,acs_5yr_2022,percent_no_health_insurance,9.5
+New Mexico,state,35,acs_5yr_2022,percent_no_vehicle_available,5.8
+New Mexico,state,35,acs_5yr_2022,percent_broadband_internet_subscription,81.7
+New Mexico,state,35,acs_5yr_2022,percent_occupants_per_room_1_01_to_1_50,2.2
+New Mexico,state,35,acs_5yr_2022,percent_occupants_per_room_1_51_plus,1.1
+New Mexico,state,35,population_estimates_2022,POPESTIMATE2022,2113344

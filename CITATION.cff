@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and acknowledge CDC (NHSN, NSSP, NWSS) and the US Census Bureau as the original data sources."
+type: dataset
+title: "ObsAwareData: observation-aware weekly respiratory surveillance data for the 50 US states and DC"
+version: 1.0.0
+license: CC-BY-4.0
+authors:
+  - family-names: "Wu"
+    given-names: "Jiande"
+    affiliation: "Department of Public Health Sciences, Clemson University, Clemson, SC, USA; Center for Public Health Modeling and Response, Clemson University, Clemson, SC, USA"
+  - family-names: "Jayawardena"
+    given-names: "Iromi"
+    affiliation: "Department of Public Health Sciences, Clemson University, Clemson, SC, USA; Center for Public Health Modeling and Response, Clemson University, Clemson, SC, USA"
+  - family-names: "Bleichrodt"
+    given-names: "Amanda Marie"
+    affiliation: "Department of Public Health Sciences, Clemson University, Clemson, SC, USA; Center for Public Health Modeling and Response, Clemson University, Clemson, SC, USA"
+  - family-names: "Ahammed"
+    given-names: "Tanvir"
+    affiliation: "Department of Public Health Sciences, Clemson University, Clemson, SC, USA; Center for Public Health Modeling and Response, Clemson University, Clemson, SC, USA"
+  - family-names: "Rennert"
+    given-names: "Lior"
+    affiliation: "Department of Public Health Sciences, Clemson University, Clemson, SC, USA; Center for Public Health Modeling and Response, Clemson University, Clemson, SC, USA"
+keywords:
+  - COVID-19
+  - influenza
+  - RSV
+  - hospital admissions
+  - emergency department
+  - wastewater surveillance
+  - forecasting
+  - data revisions
