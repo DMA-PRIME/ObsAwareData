@@ -88,6 +88,15 @@ Two things to handle before any numeric calculation:
 - **Wastewater activity levels can't be compared across pathogens.** Use `wastewater_activity_category` to compare.
 - **The flag thresholds are data-derived, not clinically validated.** See [METHODS.md](METHODS.md) for how they were set, and for the known limitations.
 
+## Versioning
+
+Releases are tagged `v<version>+<data date>`, for example `v1.0.0+2026-08-28`:
+
+- **`<version>`** follows [Semantic Versioning](https://semver.org/) and changes only when the rules for building the data change (structure, processing, or flag rules).
+- **`<data date>`** is the release date of the most recent CDC source file used. A data refresh under the same rules keeps the version and changes only the date.
+
+To reproduce an analysis, cite or check out the full tag. [CHANGELOG.md](CHANGELOG.md) lists what changed in each release and each source's release date.
+
 ## License and citation
 
 The data are released under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0). The underlying CDC and Census data are public; please also acknowledge the original sources listed in [DATA_SOURCES.md](DATA_SOURCES.md). How to cite this dataset: see [CITATION.cff](CITATION.cff).
