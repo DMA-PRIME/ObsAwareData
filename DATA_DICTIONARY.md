@@ -31,13 +31,13 @@ Conventions used throughout:
 | `<st>_all_sources_wide.csv` | wide | week | Everything above plus Census, side by side |
 | `<st>_census_context.csv` | long | Census variable | State Census context |
 | `<st>_quality_report.md` | text | - | Coverage, flag counts, consistency checks |
-| `sc_long_all_versions.csv.gz` | long, gzip | source x week x region x pathogen x measure x source release | South Carolina only: every published version |
+| `<st>_long_all_versions.csv.gz` | long, gzip | source x week x region x pathogen x measure x source release | Every published version of every value. **Distributed as a GitHub Release asset** for every state (links in `metadata/release_assets.csv`); South Carolina's is also in `data/SC/`. |
 
 All wide tables are reshaped from `<st>_long_latest.csv` and contain exactly the same values and flags (verified in each quality report). They hold the latest values only, with no revision history.
 
 ## 2. Long tables
 
-`<st>_long_latest.csv` and `sc_long_all_versions.csv.gz` have the same 17 columns:
+`<st>_long_latest.csv` and `<st>_long_all_versions.csv.gz` have the same 17 columns:
 
 | Column | Type | Description |
 |---|---|---|
@@ -62,9 +62,9 @@ All wide tables are reshaped from `<st>_long_latest.csv` and contain exactly the
 **Unique key:**
 
 - `<st>_long_latest.csv`: (`stream_id`, `observation_week`, `analysis_region_type`, `analysis_region_id`, `pathogen`, `feature_name`).
-- `sc_long_all_versions.csv.gz`: the same columns plus `source_snapshot_id`.
+- `<st>_long_all_versions.csv.gz`: the same columns plus `source_snapshot_id`.
 
-**Latest vs. all versions.** `<st>_long_latest.csv` keeps, for each key, the value from the most recent release that contains it. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `sc_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from 2025-04-04, NSSP from 2025-08-15, NWSS from 2026-08-07.
+**Latest vs. all versions.** `<st>_long_latest.csv` keeps, for each key, the value from the most recent release that contains it. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `<st>_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from 2025-04-04, NSSP from 2025-08-15, NWSS from 2026-08-07.
 
 **Reading tip:** read all columns as text first (`dtype=str, keep_default_na=False` in pandas). Otherwise leading zeros in FIPS codes are lost, and categorical labels mix with numbers in `weekly_feature`.
 
@@ -188,7 +188,7 @@ Rules and per-state thresholds are in [METHODS.md](METHODS.md) and `metadata/obs
 - Counts of each reliability flag by measure
 - The thresholds used for this state
 - Census placeholder variables
-- A list of consistency checks and their results. The checks cover: key uniqueness, every wide table cell matching the long table, weekly continuity, and (SC only) agreement between the latest and all-versions tables.
+- A list of consistency checks and their results. The checks cover: key uniqueness, every wide table cell matching the long table, weekly continuity, and agreement between the latest and all-versions tables. The report also summarizes the state's revision history: rows, releases per source, and how many values were revised after first publication.
 
 **`metadata/coverage_summary.csv`**, one row per state:
 
@@ -199,7 +199,8 @@ Rules and per-state thresholds are in [METHODS.md](METHODS.md) and `metadata/obs
 | `n_wastewater_sites`, `n_wastewater_sites_<pathogen>` | Number of wastewater sites, in total and with data for each pathogen |
 | `nhsn_first_week`, `nhsn_last_week`, `nssp_first_week`, `nssp_last_week`, `nwss_first_week`, `nwss_last_week` | First and last week with a value for the source's primary measure |
 | `long_latest_rows`, `all_sources_wide_columns` | Table sizes |
-| `revision_history_included` | Whether an all-versions table is published for the state |
+| `revision_history_included` | Whether an all-versions table is published for the state (true for every state since 1.1.0) |
+| `revision_history_location` | Where it is published: `repo` (in `data/<ST>/`) or `release` (GitHub Release asset only) |
 | `all_checks_passed` | Whether every consistency check in the quality report passed |
 
 **`metadata/observation_state_thresholds.csv`**, one row per state, gives the thresholds actually applied:
@@ -212,3 +213,5 @@ Rules and per-state thresholds are in [METHODS.md](METHODS.md) and `metadata/obs
 | `nwss_min_coverage_ratio_<pathogen>` | Wastewater `participation_status` is `reduced_participation` below this coverage ratio. Blank if the state has no sites for that pathogen. |
 
 **`metadata/manifest.csv`** lists `path`, `bytes`, and `sha256` for every file under `data/`.
+
+**`metadata/release_assets.csv`** lists every revision-history file attached to the GitHub Release: `file`, `state`, `bytes`, `sha256`, and `url` (direct download link for the release this metadata belongs to). Check a downloaded file against its `sha256`.

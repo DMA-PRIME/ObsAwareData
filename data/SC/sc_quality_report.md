@@ -69,6 +69,8 @@ Census margin-of-error variables carrying the Census Bureau's negative placehold
 
 ## Revision history (`sc_long_all_versions.csv.gz`)
 
+Location: in this folder.
+
 Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 1,783,236 rows covering 62,441 distinct values. Of those, 14,883 (23.8%) took more than one distinct value across snapshots, i.e. were revised after first publication.
 
 | Source | Snapshots | Earliest snapshot | Latest snapshot | Rows |

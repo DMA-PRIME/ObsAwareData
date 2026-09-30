@@ -15,7 +15,7 @@ Weeks end on Saturday (MMWR week ending date). The latest values reflect the CDC
 
 - **Reliability flags on every value.** Each value is labeled `observed_valid`, `observed_zero`, `observed_low_coverage`, `flagged_anomalous`, `incidental_missing`, or `structural_absent`, so a missing or questionable week is never silently treated as a real zero or a normal reading.
 - **Traceable to the source release.** Each row in the long tables records the CDC release it came from (`source_snapshot_id`, `as_of_date`) and the SHA-256 hash of that raw file.
-- **Revision history (South Carolina).** For South Carolina, every published version of every value across 100 NHSN, 45 NSSP, and 4 NWSS releases is included. These releases are dated April 2025 to August 2026 (NHSN), August 2025 to August 2026 (NSSP), and August 2026 (NWSS). You can reconstruct what was known on any date in those windows. About a quarter of South Carolina's values were revised after first publication. Other states currently include only the latest values.
+- **Full revision history for every state.** Every published version of every value across 100 NHSN, 45 NSSP, and 4 NWSS releases is available for all 50 states and DC. These releases are dated April 2025 to August 2026 (NHSN), August 2025 to August 2026 (NSSP), and August 2026 (NWSS), so you can reconstruct what was known on any date in those windows. In South Carolina, for example, about a quarter of all values were revised after first publication. The revision-history files are large, so they are distributed as [GitHub Release assets](https://github.com/DMA-PRIME/ObsAwareData/releases/tag/v1.1.0%2B2026-08-28) rather than in the repository (South Carolina's is also in the repository as an example).
 - **No invented aggregation.** Sub-state regions and wastewater sites keep their own columns; nothing is averaged, weighted, or reallocated across geographies.
 
 ## Repository layout
@@ -32,7 +32,8 @@ ObsAwareData/
 ├── metadata/
 │   ├── coverage_summary.csv            one row per state: regions, sites, date ranges
 │   ├── observation_state_thresholds.csv  per-state thresholds behind the reliability flags
-│   └── manifest.csv                    SHA-256 checksum of every data file
+│   ├── manifest.csv                    SHA-256 checksum of every file under data/
+│   └── release_assets.csv              download link and SHA-256 of every revision-history file
 └── data/
     └── <ST>/                 one folder per state, two-letter postal code (AK ... WY, DC)
         ├── <st>_long_latest.csv          all sources, long format, latest value per week
@@ -45,12 +46,14 @@ ObsAwareData/
         └── sc_long_all_versions.csv.gz   (SC only) full revision history
 ```
 
+Revision-history files for all 51 jurisdictions (`<st>_long_all_versions.csv.gz`, 2-64 MB each, about 840 MB in total) are attached to each GitHub Release; see [Revision history downloads](#revision-history-downloads).
+
 ## Which file should I use?
 
 - **To model or plot one state week by week:** `<st>_all_sources_wide.csv`. One row per week, one column per measure and region, with a `_flag` column next to each value.
 - **To work with one source:** `<st>_nhsn_wide.csv`, `<st>_nssp_wide.csv`, or `<st>_nwss_wide.csv`. One row per region (or site) and week.
 - **To filter, join, or stack states programmatically:** `<st>_long_latest.csv`. One row per measurement, with full provenance. All states share the same columns, so the files can be concatenated directly.
-- **To study data revisions or run a real-time backtest:** `sc_long_all_versions.csv.gz` (South Carolina only).
+- **To study data revisions or run a real-time backtest:** `<st>_long_all_versions.csv.gz`, one per state, downloaded from the release (see below).
 
 ## Quick start
 
@@ -63,7 +66,8 @@ wide = pd.read_csv("data/SC/sc_all_sources_wide.csv", parse_dates=["observation_
 usable = wide["hospital_admission_count_covid_flag"].isin(["observed_valid", "observed_zero"])
 covid_admissions = wide.loc[usable, ["observation_week", "hospital_admission_count_covid"]]
 
-# Revision history (SC only); keep_default_na=False keeps category labels as text
+# Revision history (SC's copy is in the repo; other states: see below)
+# keep_default_na=False keeps category labels as text
 history = pd.read_csv("data/SC/sc_long_all_versions.csv.gz", dtype=str, keep_default_na=False)
 ```
 
@@ -75,7 +79,37 @@ wide <- read_csv("data/SC/sc_all_sources_wide.csv")
 history <- read_csv("data/SC/sc_long_all_versions.csv.gz", col_types = cols(.default = "c"))
 ```
 
-Two things to handle before any numeric calculation:
+## Revision history downloads
+
+Each state's `<st>_long_all_versions.csv.gz` is attached to the [release](https://github.com/DMA-PRIME/ObsAwareData/releases/tag/v1.1.0%2B2026-08-28). `metadata/release_assets.csv` lists each file's direct download link, size, and SHA-256.
+
+With the [GitHub CLI](https://cli.github.com/):
+
+```bash
+# one state
+gh release download "v1.1.0+2026-08-28" --repo DMA-PRIME/ObsAwareData --pattern "tx_long_all_versions.csv.gz"
+# all states
+gh release download "v1.1.0+2026-08-28" --repo DMA-PRIME/ObsAwareData --pattern "*_long_all_versions.csv.gz"
+```
+
+Or in Python, from the link in `metadata/release_assets.csv`:
+
+```python
+import hashlib, urllib.request
+import pandas as pd
+
+assets = pd.read_csv("metadata/release_assets.csv").set_index("state")
+a = assets.loc["TX"]
+urllib.request.urlretrieve(a["url"], a["file"])
+assert hashlib.sha256(open(a["file"], "rb").read()).hexdigest() == a["sha256"]
+history = pd.read_csv(a["file"], dtype=str, keep_default_na=False)
+```
+
+The larger files expand to several GB in memory when read as text. Read them in chunks (`chunksize=` in pandas), or keep only the columns you need (`usecols=`).
+
+## Before any numeric calculation
+
+Two things to handle:
 
 1. **Filter on the flag, not only on the value.** Filter each value on its `_flag` column (or `observation_state` in the long tables). A blank value with `incidental_missing` is a gap, not a zero.
 2. **Drop the Census placeholder code.** A few Census margin-of-error columns hold `-555555555`, the Census Bureau's placeholder for "not applicable". Exclude it from numeric calculations.

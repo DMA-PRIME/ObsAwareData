@@ -8,7 +8,7 @@ This document describes how the published tables were built from the public sour
 2. **Filter to the state.** Each state's rows are selected from the nationwide files. National, regional, and territory records are excluded.
 3. **Standardize to one long schema.** Every value becomes one row: source, release, week, region, pathogen, measure, value, unit, reliability flag, definition status. Only the fields listed in [DATA_SOURCES.md](DATA_SOURCES.md) are kept.
 4. **Build the revision history and the latest view.**
-   - The revision history (published for South Carolina as `sc_long_all_versions.csv.gz`) keeps one row per key per release.
+   - The revision history (`<st>_long_all_versions.csv.gz`, published for every state as a GitHub Release asset) keeps one row per key per release.
    - The latest view (`<st>_long_latest.csv`) keeps, for each key, the row from the release with the latest `as_of_date`. When two releases share a date, the NHSN/NSSP `standard` release is preferred over the `preliminary` one. This is a documented tie-break, not a claim that the standard release is final.
 5. **Assign reliability flags** (section 3).
 6. **Reshape to wide tables.**
@@ -20,7 +20,7 @@ This document describes how the published tables were built from the public sour
    - Unique keys
    - Cell-by-cell agreement between every wide table and the long table
    - A complete weekly sequence
-   - (SC) Agreement between the latest view and the revision history
+   - Agreement between the latest view and the revision history
 
 ## 2. Geography
 
@@ -100,12 +100,11 @@ The values applied to each state are in `metadata/observation_state_thresholds.c
 
 1. **The flag thresholds are provisional.** They are data-derived and have not been externally or clinically validated. Treat the flags as screening aids, not ground truth.
 2. **Coverage flags are static for ED and wastewater.** The NSSP participation status reflects a single August 2026 facility map. The NWSS participation status is one summary per site and pathogen. Neither describes how coverage changed over time.
-3. **Revision history for one state only.** Only South Carolina has a published all-versions table in this release. Other states' latest values were built from the same full set of releases, but their revision histories are not yet included.
-4. **Some region IDs repeat across region types.** `analysis_region_id` is unique only together with `analysis_region_type`. In Pennsylvania, the HSA with code `42` and the state FIPS code `42` coexist.
-5. **Source coverage varies by state and period.**
+3. **Some region IDs repeat across region types.** `analysis_region_id` is unique only together with `analysis_region_type`. In Pennsylvania, the HSA with code `42` and the state FIPS code `42` coexist.
+4. **Source coverage varies by state and period.**
    - NSSP data begin in October 2022.
    - The NSSP `combined` series ends in September 2024 in most states.
    - NHSN influenza reporting in most states begins in October 2020.
    - North Dakota has no influenza A or RSV wastewater data. Its COVID-19 wastewater data (2 sites) end on 2023-09-16.
-6. **Wastewater activity levels are pathogen-specific indices.** Values are not comparable across pathogens; use the category for comparisons.
-7. **Snapshot of source data.** The latest values reflect CDC releases through 2026-08-14 (NHSN, NSSP) and 2026-08-28 (NWSS). Later CDC revisions are not included.
+5. **Wastewater activity levels are pathogen-specific indices.** Values are not comparable across pathogens; use the category for comparisons.
+6. **Snapshot of source data.** The latest values reflect CDC releases through 2026-08-14 (NHSN, NSSP) and 2026-08-28 (NWSS). Later CDC revisions are not included.

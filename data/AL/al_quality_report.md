@@ -67,6 +67,18 @@ Thresholds behind `observed_low_coverage` and `flagged_anomalous` for this state
 
 Census margin-of-error variables carrying the Census Bureau's negative placeholder code instead of a real value: `total_population_moe`.
 
+## Revision history (`al_long_all_versions.csv.gz`)
+
+Location: a GitHub Release asset, not stored in the repository; see `metadata/release_assets.csv` for its download link and checksum.
+
+Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 2,349,966 rows covering 74,327 distinct values. Of those, 6,907 (9.3%) took more than one distinct value across snapshots, i.e. were revised after first publication.
+
+| Source | Snapshots | Earliest snapshot | Latest snapshot | Rows |
+|---|---|---|---|---|
+| NHSN | 100 | 2025-04-04 | 2026-08-14 | 257,040 |
+| NSSP | 45 | 2025-08-15 | 2026-08-14 | 2,010,510 |
+| NWSS | 4 | 2026-08-07 | 2026-08-28 | 82,416 |
+
 ## Consistency checks
 
 | Check | Result | Detail |
@@ -78,3 +90,5 @@ Census margin-of-error variables carrying the Census Bureau's negative placehold
 | `al_all_sources_wide.csv` matches the long table | PASS | 74,327 cells; missing 0, unexpected 0, differing 0 |
 | `al_all_sources_wide.csv` census columns match `al_census_context.csv` | PASS | 24 columns, constant across all weeks |
 | All-sources table has one row per week, weekly with no gaps, covering every week in the long table | PASS | 316 weeks, 2020-08-08 to 2026-08-22 |
+| Revision history: one row per (key, source snapshot) | PASS | 0 duplicates |
+| Every latest-table row appears, with the same value, in the revision history | PASS | 0 missing, 0 differing |

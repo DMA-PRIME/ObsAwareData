@@ -16,6 +16,16 @@ Each release is tagged `v<version>+<data date>`, for example `v1.0.0+2026-08-28`
 
 Under Semantic Versioning, the part after `+` is build metadata: it does not affect version precedence. Two tags with the same version and different data dates are built with the same rules.
 
+## 1.1.0+2026-08-28 (released 2026-09-30)
+
+Adds the full revision history for every state. Same source data as 1.0.0+2026-08-28.
+
+- New: `<st>_long_all_versions.csv.gz` for all 50 states and DC (about 840 MB in total), distributed as GitHub Release assets rather than in the repository. South Carolina's copy stays in `data/SC/`.
+- New: `metadata/release_assets.csv` with each asset's download link, size, and SHA-256.
+- New column in `metadata/coverage_summary.csv`: `revision_history_location` (`repo` or `release`); `revision_history_included` is now true for every state.
+- Quality reports: every state now includes a revision-history summary and the two revision-history consistency checks.
+- No change to any existing data table (CSV or the SC revision-history file).
+
 ## 1.0.0+2026-08-28 (released 2026-09-30)
 
 First public release.
