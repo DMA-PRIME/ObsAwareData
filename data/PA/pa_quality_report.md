@@ -7,17 +7,17 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 42
 - Emergency-department regions (CDC health service areas): 26
 - Wastewater sampling sites: 49 (with COVID-19 data: 49; influenza A: 41; RSV: 34)
-- Source snapshot dates used for the latest values: hospital admissions 2026-08-14; ED visits 2026-08-14; wastewater 2026-08-28
+- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `pa_long_latest.csv` | 111,023 | 17 | 37.0 |
-| `pa_nhsn_wide.csv` | 314 | 24 | 0.1 |
-| `pa_nssp_wide.csv` | 5,454 | 30 | 2.3 |
-| `pa_nwss_wide.csv` | 7,721 | 24 | 1.7 |
-| `pa_all_sources_wide.csv` | 316 | 1,433 | 3.2 |
+| `pa_long_latest.csv` | 115,497 | 17 | 35.9 |
+| `pa_nhsn_wide.csv` | 322 | 24 | 0.1 |
+| `pa_nssp_wide.csv` | 5,670 | 30 | 2.3 |
+| `pa_nwss_wide.csv` | 7,934 | 24 | 1.8 |
+| `pa_all_sources_wide.csv` | 322 | 1,433 | 3.3 |
 | `pa_census_context.csv` | 24 | 6 | 0.0 |
 
 ## Coverage
@@ -26,16 +26,16 @@ A week counts as "with data" when the primary measure (weekly admissions, ED vis
 
 | Source | Pathogen | Regions or sites with data | First week with data | Last week with data |
 |---|---|---|---|---|
-| Hospital admissions (NHSN) | covid | 1 | 2020-08-08 | 2026-08-08 |
-| Hospital admissions (NHSN) | influenza | 1 | 2020-10-17 | 2026-08-08 |
-| Hospital admissions (NHSN) | rsv | 1 | 2024-08-10 | 2026-08-08 |
-| Emergency department visits (NSSP) | covid | 1 | 2022-10-01 | 2026-08-08 |
-| Emergency department visits (NSSP) | influenza | 1 | 2022-10-01 | 2026-08-08 |
-| Emergency department visits (NSSP) | rsv | 1 | 2022-10-01 | 2026-08-08 |
+| Hospital admissions (NHSN) | covid | 1 | 2020-08-08 | 2026-10-03 |
+| Hospital admissions (NHSN) | influenza | 1 | 2020-10-17 | 2026-10-03 |
+| Hospital admissions (NHSN) | rsv | 1 | 2024-08-10 | 2026-10-03 |
+| Emergency department visits (NSSP) | covid | 1 | 2022-10-01 | 2026-10-03 |
+| Emergency department visits (NSSP) | influenza | 1 | 2022-10-01 | 2026-10-03 |
+| Emergency department visits (NSSP) | rsv | 1 | 2022-10-01 | 2026-10-03 |
 | Emergency department visits (NSSP) | combined | 25 | 2022-10-01 | 2024-09-28 |
-| Wastewater (NWSS) | covid | 49 | 2022-02-05 | 2026-08-22 |
-| Wastewater (NWSS) | influenza | 41 | 2022-08-06 | 2026-08-22 |
-| Wastewater (NWSS) | rsv | 34 | 2022-08-06 | 2026-08-22 |
+| Wastewater (NWSS) | covid | 49 | 2022-02-05 | 2026-10-03 |
+| Wastewater (NWSS) | influenza | 41 | 2022-08-06 | 2026-10-03 |
+| Wastewater (NWSS) | rsv | 34 | 2022-08-06 | 2026-10-03 |
 
 ## Reliability flags
 
@@ -43,16 +43,16 @@ Number of rows in `pa_long_latest.csv` by source, measure, and `observation_stat
 
 | Source | Measure | observed_valid | observed_zero | observed_low_coverage | flagged_anomalous | incidental_missing | structural_absent |
 |---|---|---|---|---|---|---|---|
-| NHSN | coverage_status | 660 | 0 | 73 | 0 | 0 | 209 |
-| NHSN | hospital_admission_count | 670 | 8 | 0 | 45 | 10 | 209 |
-| NHSN | hospital_reporting_count | 723 | 10 | 0 | 0 | 0 | 209 |
-| NSSP | ed_trend_category | 606 | 0 | 15,756 | 0 | 0 | 0 |
-| NSSP | ed_visit_percent | 3,275 | 61 | 0 | 0 | 18,480 | 0 |
-| NSSP | ed_visit_percent_smoothed | 2,982 | 15 | 0 | 339 | 18,480 | 0 |
-| NSSP | participation_status | 3,636 | 0 | 1,616 | 0 | 0 | 0 |
-| NWSS | participation_status | 12,431 | 0 | 1,886 | 0 | 0 | 0 |
-| NWSS | wastewater_activity_category | 13,917 | 0 | 0 | 400 | 0 | 0 |
-| NWSS | wastewater_activity_level | 11,555 | 1 | 0 | 2,761 | 0 | 0 |
+| NHSN | coverage_status | 684 | 0 | 73 | 0 | 0 | 209 |
+| NHSN | hospital_admission_count | 694 | 8 | 0 | 45 | 10 | 209 |
+| NHSN | hospital_reporting_count | 747 | 10 | 0 | 0 | 0 | 209 |
+| NSSP | ed_trend_category | 630 | 0 | 16,380 | 0 | 0 | 0 |
+| NSSP | ed_visit_percent | 3,298 | 62 | 0 | 0 | 19,320 | 0 |
+| NSSP | ed_visit_percent_smoothed | 3,000 | 17 | 0 | 343 | 19,320 | 0 |
+| NSSP | participation_status | 3,780 | 0 | 1,680 | 0 | 0 | 0 |
+| NWSS | participation_status | 12,521 | 0 | 2,402 | 0 | 0 | 0 |
+| NWSS | wastewater_activity_category | 14,492 | 0 | 0 | 431 | 0 | 0 |
+| NWSS | wastewater_activity_level | 12,104 | 1 | 0 | 2,818 | 0 | 0 |
 
 Thresholds behind `observed_low_coverage` and `flagged_anomalous` for this state (method in `METHODS.md`):
 
@@ -67,28 +67,28 @@ Thresholds behind `observed_low_coverage` and `flagged_anomalous` for this state
 
 Census margin-of-error variables carrying the Census Bureau's negative placeholder code instead of a real value: `total_population_moe`.
 
-## Revision history (`pa_long_all_versions.csv.gz`)
+## Revision history (`pa_long_all_versions*.csv.gz`)
 
-Location: a GitHub Release asset, not stored in the repository; see `metadata/release_assets.csv` for its download link and checksum.
+Location: GitHub Release assets, not stored in the repository. `metadata/release_assets.csv` lists this state's files in order, with download links and checksums: one `full` file, then one `increment` per later release holding only the source snapshots first published in it. Concatenating them in that order, keeping only the first header line, gives the complete table described here.
 
-Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 3,013,215 rows covering 111,023 distinct values. Of those, 12,082 (10.9%) took more than one distinct value across snapshots, i.e. were revised after first publication.
+Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 3,857,573 rows covering 115,497 distinct values. Of those, 12,568 (10.9%) took more than one distinct value across snapshots, i.e. were revised after first publication.
 
 | Source | Snapshots | Earliest snapshot | Latest snapshot | Rows |
 |---|---|---|---|---|
-| NHSN | 100 | 2025-04-04 | 2026-08-14 | 257,040 |
-| NSSP | 45 | 2025-08-15 | 2026-08-14 | 2,587,230 |
-| NWSS | 4 | 2026-08-07 | 2026-08-28 | 168,945 |
+| NHSN | 116 | 2025-04-04 | 2026-10-09 | 302,904 |
+| NSSP | 53 | 2025-08-15 | 2026-10-07 | 3,121,472 |
+| NWSS | 10 | 2026-08-07 | 2026-10-09 | 433,197 |
 
 ## Consistency checks
 
 | Check | Result | Detail |
 |---|---|---|
 | Long table: one row per (source, week, region type, region, pathogen, measure) | PASS | 0 duplicate keys |
-| `pa_nhsn_wide.csv` matches the long table | PASS | 2,826 cells; missing 0, unexpected 0, differing 0 |
-| `pa_nssp_wide.csv` matches the long table | PASS | 65,246 cells; missing 0, unexpected 0, differing 0 |
-| `pa_nwss_wide.csv` matches the long table | PASS | 42,951 cells; missing 0, unexpected 0, differing 0 |
-| `pa_all_sources_wide.csv` matches the long table | PASS | 111,023 cells; missing 0, unexpected 0, differing 0 |
+| `pa_nhsn_wide.csv` matches the long table | PASS | 2,898 cells; missing 0, unexpected 0, differing 0 |
+| `pa_nssp_wide.csv` matches the long table | PASS | 67,830 cells; missing 0, unexpected 0, differing 0 |
+| `pa_nwss_wide.csv` matches the long table | PASS | 44,769 cells; missing 0, unexpected 0, differing 0 |
+| `pa_all_sources_wide.csv` matches the long table | PASS | 115,497 cells; missing 0, unexpected 0, differing 0 |
 | `pa_all_sources_wide.csv` census columns match `pa_census_context.csv` | PASS | 24 columns, constant across all weeks |
-| All-sources table has one row per week, weekly with no gaps, covering every week in the long table | PASS | 316 weeks, 2020-08-08 to 2026-08-22 |
+| All-sources table has one row per week, weekly with no gaps, covering every week in the long table | PASS | 322 weeks, 2020-08-08 to 2026-10-03 |
 | Revision history: one row per (key, source snapshot) | PASS | 0 duplicates |
 | Every latest-table row appears, with the same value, in the revision history | PASS | 0 missing, 0 differing |

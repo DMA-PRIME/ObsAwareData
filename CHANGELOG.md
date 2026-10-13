@@ -16,6 +16,16 @@ Each release is tagged `v<version>+<data date>`, for example `v1.0.0+2026-08-28`
 
 Under Semantic Versioning, the part after `+` is build metadata: it does not affect version precedence. Two tags with the same version and different data dates are built with the same rules.
 
+## 1.2.0+2026-10-09 (released 2026-10-13)
+
+<!-- Describe what changed in the build rules for this version. -->
+
+<!-- auto:changelog_data -->
+- Source releases used, latest of each: NHSN 2026-10-09, NSSP 2026-10-07, NWSS 2026-10-09. Weeks covered: NHSN through 2026-10-03, NSSP through 2026-10-03, NWSS through 2026-10-03.
+- Revision history covers 116 NHSN, 53 NSSP, 10 NWSS releases. Release assets added in this release: 51 full (see `metadata/release_assets.csv`).
+- Compared with 1.1.0+2026-08-28: 154,587 rows added and 803 removed in the latest-value tables; 350,932 values revised; 84,555 `observation_state` values changed.
+<!-- /auto:changelog_data -->
+
 ## 1.1.0+2026-08-28 (released 2026-09-30)
 
 Adds the full revision history for every state. Same source data as 1.0.0+2026-08-28.
