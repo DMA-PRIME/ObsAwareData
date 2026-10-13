@@ -18,7 +18,7 @@ Under Semantic Versioning, the part after `+` is build metadata: it does not aff
 
 ## 1.0.0+2026-10-02 (released 2026-10-13)
 
-First release.
+First release: weekly COVID-19, influenza, and RSV data for the 50 states and DC from three CDC surveillance systems (NHSN hospital admissions, NSSP emergency department visits, NWSS wastewater) and US Census context, with a reliability flag on every value, the CDC source release behind every value (`metadata/source_snapshots.csv`), and every state's revision history as release assets (`metadata/release_assets.csv`). See the README for the files and METHODS.md for how they are built.
 
 <!-- auto:changelog_data -->
 - Source releases used, latest of each: NHSN 2026-10-02, NSSP 2026-09-30, NWSS 2026-10-02. Weeks covered: NHSN through 2026-09-26, NSSP through 2026-09-26, NWSS through 2026-09-26.
