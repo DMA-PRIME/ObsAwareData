@@ -4,18 +4,18 @@ Weekly COVID-19, influenza, and RSV surveillance data for all 50 states and the 
 
 | Source | What it measures | Geography | Weeks covered |
 |---|---|---|---|
-| NHSN Hospital Respiratory Data | New hospital admissions and number of reporting hospitals | State | 2020-08-08 to 2026-08-08 |
-| NSSP Emergency Department Visit Trajectories | Percent of ED visits for each pathogen, CDC trend label | State and CDC health service areas (multi-county regions) | 2022-10-01 to 2026-08-08 |
-| NWSS Wastewater Viral Activity Level | Wastewater viral activity index and category | Individual wastewater sampling sites | 2022-01-01 to 2026-08-22 |
+| NHSN Hospital Respiratory Data | New hospital admissions and number of reporting hospitals | State | <!-- auto:weeks_nhsn -->2020-08-08 to 2026-10-03<!-- /auto:weeks_nhsn --> |
+| NSSP Emergency Department Visit Trajectories | Percent of ED visits for each pathogen, CDC trend label | State and CDC health service areas (multi-county regions) | <!-- auto:weeks_nssp -->2022-10-01 to 2026-10-03<!-- /auto:weeks_nssp --> |
+| NWSS Wastewater Viral Activity Level | Wastewater viral activity index and category | Individual wastewater sampling sites | <!-- auto:weeks_nwss -->2022-01-01 to 2026-10-03<!-- /auto:weeks_nwss --> |
 | Census ACS 5-year 2022 and Population Estimates 2022 | Population and socioeconomic context | State | Static |
 
-Weeks end on Saturday (MMWR week ending date). The latest values reflect the CDC releases available on 2026-08-14 (NHSN, NSSP) and 2026-08-28 (NWSS). Details and links for each source are in [DATA_SOURCES.md](DATA_SOURCES.md).
+Weeks end on Saturday (MMWR week ending date). The latest values reflect the CDC releases available on <!-- auto:latest_releases -->2026-10-09 (NHSN, NWSS) and 2026-10-07 (NSSP)<!-- /auto:latest_releases -->. Details and links for each source are in [DATA_SOURCES.md](DATA_SOURCES.md).
 
 ## What makes this dataset different
 
 - **Reliability flags on every value.** Each value is labeled `observed_valid`, `observed_zero`, `observed_low_coverage`, `flagged_anomalous`, `incidental_missing`, or `structural_absent`, so a missing or questionable week is never silently treated as a real zero or a normal reading.
 - **Traceable to the source release.** Each row in the long tables records the CDC release it came from (`source_snapshot_id`, `as_of_date`) and the SHA-256 hash of that raw file.
-- **Full revision history for every state.** Every published version of every value across 100 NHSN, 45 NSSP, and 4 NWSS releases is available for all 50 states and DC. These releases are dated April 2025 to August 2026 (NHSN), August 2025 to August 2026 (NSSP), and August 2026 (NWSS), so you can reconstruct what was known on any date in those windows. In South Carolina, for example, about a quarter of all values were revised after first publication. The revision-history files are large, so they are distributed as [GitHub Release assets](https://github.com/DMA-PRIME/ObsAwareData/releases/tag/v1.1.0%2B2026-08-28) rather than in the repository (South Carolina's is also in the repository as an example).
+- **Full revision history for every state.** Every published version of every value across <!-- auto:releases_nhsn -->116<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->53<!-- /auto:releases_nssp --> NSSP, and <!-- auto:releases_nwss -->10<!-- /auto:releases_nwss --> NWSS releases is available for all 50 states and DC. These releases are dated <!-- auto:release_windows -->April 2025 to October 2026 (NHSN), August 2025 to October 2026 (NSSP), and August to October 2026 (NWSS)<!-- /auto:release_windows -->, so you can reconstruct what was known on any date in those windows. In South Carolina, for example, about a quarter of all values were revised after first publication. The revision-history files are large, so they are distributed as [GitHub Release assets](https://github.com/DMA-PRIME/ObsAwareData/releases) rather than in the repository; see [Revision history downloads](#revision-history-downloads).
 - **No invented aggregation.** Sub-state regions and wastewater sites keep their own columns; nothing is averaged, weighted, or reallocated across geographies.
 
 ## Repository layout
@@ -42,18 +42,17 @@ ObsAwareData/
         ├── <st>_nwss_wide.csv            wastewater, wide format
         ├── <st>_all_sources_wide.csv     one row per week, every source and region side by side
         ├── <st>_census_context.csv       state Census context
-        ├── <st>_quality_report.md        coverage, flag counts, consistency checks
-        └── sc_long_all_versions.csv.gz   (SC only) full revision history
+        └── <st>_quality_report.md        coverage, flag counts, consistency checks
 ```
 
-Revision-history files for all 51 jurisdictions (`<st>_long_all_versions.csv.gz`, 2-64 MB each, about 840 MB in total) are attached to each GitHub Release; see [Revision history downloads](#revision-history-downloads).
+Revision-history files for all 51 jurisdictions are attached to the GitHub Releases: for each state one full file (`<st>_long_all_versions.csv.gz`, 3-77 MB, about 1.0 GB for all states) and then, in each later release, a small file with only the newly published source releases; see [Revision history downloads](#revision-history-downloads).
 
 ## Which file should I use?
 
 - **To model or plot one state week by week:** `<st>_all_sources_wide.csv`. One row per week, one column per measure and region, with a `_flag` column next to each value.
 - **To work with one source:** `<st>_nhsn_wide.csv`, `<st>_nssp_wide.csv`, or `<st>_nwss_wide.csv`. One row per region (or site) and week.
 - **To filter, join, or stack states programmatically:** `<st>_long_latest.csv`. One row per measurement, with full provenance. All states share the same columns, so the files can be concatenated directly.
-- **To study data revisions or run a real-time backtest:** `<st>_long_all_versions.csv.gz`, one per state, downloaded from the release (see below).
+- **To study data revisions or run a real-time backtest:** the revision history, downloaded from the releases (see below).
 
 ## Quick start
 
@@ -65,10 +64,6 @@ import pandas as pd
 wide = pd.read_csv("data/SC/sc_all_sources_wide.csv", parse_dates=["observation_week"])
 usable = wide["hospital_admission_count_covid_flag"].isin(["observed_valid", "observed_zero"])
 covid_admissions = wide.loc[usable, ["observation_week", "hospital_admission_count_covid"]]
-
-# Revision history (SC's copy is in the repo; other states: see below)
-# keep_default_na=False keeps category labels as text
-history = pd.read_csv("data/SC/sc_long_all_versions.csv.gz", dtype=str, keep_default_na=False)
 ```
 
 R:
@@ -76,34 +71,29 @@ R:
 ```r
 library(readr)
 wide <- read_csv("data/SC/sc_all_sources_wide.csv")
-history <- read_csv("data/SC/sc_long_all_versions.csv.gz", col_types = cols(.default = "c"))
 ```
 
 ## Revision history downloads
 
-Each state's `<st>_long_all_versions.csv.gz` is attached to the [release](https://github.com/DMA-PRIME/ObsAwareData/releases/tag/v1.1.0%2B2026-08-28). `metadata/release_assets.csv` lists each file's direct download link, size, and SHA-256.
+A state's revision history is split across releases: one full file (`kind` = `full`, `<st>_long_all_versions.csv.gz`) followed by one increment per later release (`kind` = `increment`, `<st>_long_all_versions_added_<as-of date>.csv.gz`) holding only the source releases first published in it. `metadata/release_assets.csv` lists every file of every state in order, with its download link, size, and SHA-256. Concatenating a state's files in that order gives the complete table; each source release appears in exactly one file.
 
-With the [GitHub CLI](https://cli.github.com/):
-
-```bash
-# one state
-gh release download "v1.1.0+2026-08-28" --repo DMA-PRIME/ObsAwareData --pattern "tx_long_all_versions.csv.gz"
-# all states
-gh release download "v1.1.0+2026-08-28" --repo DMA-PRIME/ObsAwareData --pattern "*_long_all_versions.csv.gz"
-```
-
-Or in Python, from the link in `metadata/release_assets.csv`:
+In Python:
 
 ```python
 import hashlib, urllib.request
 import pandas as pd
 
-assets = pd.read_csv("metadata/release_assets.csv").set_index("state")
-a = assets.loc["TX"]
-urllib.request.urlretrieve(a["url"], a["file"])
-assert hashlib.sha256(open(a["file"], "rb").read()).hexdigest() == a["sha256"]
-history = pd.read_csv(a["file"], dtype=str, keep_default_na=False)
+assets = pd.read_csv("metadata/release_assets.csv")
+parts = []
+for a in assets[assets.state == "TX"].itertuples():  # in order: the full file, then increments
+    urllib.request.urlretrieve(a.url, a.file)
+    assert hashlib.sha256(open(a.file, "rb").read()).hexdigest() == a.sha256
+    # keep_default_na=False keeps category labels as text
+    parts.append(pd.read_csv(a.file, dtype=str, keep_default_na=False))
+history = pd.concat(parts, ignore_index=True)
 ```
+
+With the [GitHub CLI](https://cli.github.com/), download each listed file from its release, for example `gh release download "<tag>" --repo DMA-PRIME/ObsAwareData --pattern "tx_long_all_versions*"` for each `tag` of the state's rows.
 
 The larger files expand to several GB in memory when read as text. Read them in chunks (`chunksize=` in pandas), or keep only the columns you need (`usecols=`).
 

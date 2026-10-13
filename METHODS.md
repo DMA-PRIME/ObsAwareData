@@ -4,11 +4,11 @@ This document describes how the published tables were built from the public sour
 
 ## 1. Processing overview
 
-1. **Register every source release.** Each downloaded nationwide file (100 NHSN, 45 NSSP, 4 NWSS releases, plus the Census extracts) is kept unmodified and registered with its release date and SHA-256 hash. Earlier releases are never overwritten by later ones.
+1. **Register every source release.** Each downloaded nationwide file (<!-- auto:releases_nhsn -->116<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->53<!-- /auto:releases_nssp --> NSSP, <!-- auto:releases_nwss -->10<!-- /auto:releases_nwss --> NWSS releases, plus the Census extracts) is kept unmodified and registered with its release date and SHA-256 hash. Earlier releases are never overwritten by later ones.
 2. **Filter to the state.** Each state's rows are selected from the nationwide files. National, regional, and territory records are excluded.
 3. **Standardize to one long schema.** Every value becomes one row: source, release, week, region, pathogen, measure, value, unit, reliability flag, definition status. Only the fields listed in [DATA_SOURCES.md](DATA_SOURCES.md) are kept.
 4. **Build the revision history and the latest view.**
-   - The revision history (`<st>_long_all_versions.csv.gz`, published for every state as a GitHub Release asset) keeps one row per key per release.
+   - The revision history (published for every state as GitHub Release assets: a full file, then weekly increments) keeps one row per key per release.
    - The latest view (`<st>_long_latest.csv`) keeps, for each key, the row from the release with the latest `as_of_date`. When two releases share a date, the NHSN/NSSP `standard` release is preferred over the `preliminary` one. This is a documented tie-break, not a claim that the standard release is final.
 5. **Assign reliability flags** (section 3).
 6. **Reshape to wide tables.**
@@ -62,7 +62,7 @@ Rules are applied per state, in the order below. A later rule only replaces `obs
 ### 3.4 NWSS wastewater
 
 - **Participation.** For each site and pathogen:
-  - coverage ratio = (number of weeks with data on or after the site's WVAL inclusion date) / (number of weeks in the state's data from that inclusion date onward). Both counts cover the same window, so the ratio is at most 1. It is computed from the 2026-08-28 release, the same release the latest wastewater values come from.
+  - coverage ratio = (number of weeks with data on or after the site's WVAL inclusion date) / (number of weeks in the state's data from that inclusion date onward). Both counts cover the same window, so the ratio is at most 1. It is computed from the <!-- auto:newest_nwss -->2026-10-09<!-- /auto:newest_nwss --> release, the same release the latest wastewater values come from.
   - Below the state's pathogen-specific threshold, `participation_status` is `reduced_participation` (flag `observed_low_coverage`); otherwise `full_participation`.
   - One value per site and pathogen, repeated on each of the site's weeks.
 - **Category jump.** When `wastewater_activity_category` moves two or more tiers (on the scale Very Low < Low < Moderate < High < Very High) from the site's previous reported week, that week's category and activity level are both `flagged_anomalous`.
@@ -107,4 +107,4 @@ The values applied to each state are in `metadata/observation_state_thresholds.c
    - NHSN influenza reporting in most states begins in October 2020.
    - North Dakota has no influenza A or RSV wastewater data. Its COVID-19 wastewater data (2 sites) end on 2023-09-16.
 5. **Wastewater activity levels are pathogen-specific indices.** Values are not comparable across pathogens; use the category for comparisons.
-6. **Snapshot of source data.** The latest values reflect CDC releases through 2026-08-14 (NHSN, NSSP) and 2026-08-28 (NWSS). Later CDC revisions are not included.
+6. **Snapshot of source data.** The latest values reflect CDC releases through <!-- auto:latest_releases -->2026-10-09 (NHSN, NWSS) and 2026-10-07 (NSSP)<!-- /auto:latest_releases -->. Later CDC revisions are not included.

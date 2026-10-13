@@ -31,7 +31,7 @@ Conventions used throughout:
 | `<st>_all_sources_wide.csv` | wide | week | Everything above plus Census, side by side |
 | `<st>_census_context.csv` | long | Census variable | State Census context |
 | `<st>_quality_report.md` | text | - | Coverage, flag counts, consistency checks |
-| `<st>_long_all_versions.csv.gz` | long, gzip | source x week x region x pathogen x measure x source release | Every published version of every value. **Distributed as a GitHub Release asset** for every state (links in `metadata/release_assets.csv`); South Carolina's is also in `data/SC/`. |
+| `<st>_long_all_versions.csv.gz` | long, gzip | source x week x region x pathogen x measure x source release | Every published version of every value. **Distributed as GitHub Release assets**: one full file per state, then one increment per later release (`<st>_long_all_versions_added_<as-of date>.csv.gz`); all listed in `metadata/release_assets.csv`. |
 
 All wide tables are reshaped from `<st>_long_latest.csv` and contain exactly the same values and flags (verified in each quality report). They hold the latest values only, with no revision history.
 
@@ -44,7 +44,7 @@ All wide tables are reshaped from `<st>_long_latest.csv` and contain exactly the
 | `stream_id` | text | Source system: `nhsn` (hospital admissions), `nssp` (ED visits), `nwss` (wastewater). |
 | `source_snapshot_id` | text | The CDC release this value came from: `<stream>_<YYYYMMDD>[_<channel>]_<hash12>`. `<YYYYMMDD>` is the release date, `<channel>` (NHSN and NSSP) is `standard` or `preliminary`, and `<hash12>` is the first 12 hex digits of the raw file's SHA-256. |
 | `as_of_date` | date | Release date of that source file. |
-| `extract_timestamp` | datetime (UTC) | When this dataset was built from the source file. |
+| `extract_timestamp` | date | In `<st>_long_latest.csv`: the release's as-of date (only CDC source files released on or before it were used), the same for every row. In the revision history: the as-of date of the ObsAwareData release that first published the row's source release, so a published row never changes. Before 1.2.0 it was the time the dataset was built (datetime, UTC). |
 | `observation_week` | date | Week-ending Saturday the value describes (not when it was published). |
 | `analysis_region` | text | Human-readable region name, e.g. `California`, `Butte (Chico), CA - Tehama, CA`, or a site ID. |
 | `analysis_region_type` | text | `state`, `sub_state_hsa` (CDC health service area), or `sampling_site` (wastewater site). |
@@ -64,7 +64,7 @@ All wide tables are reshaped from `<st>_long_latest.csv` and contain exactly the
 - `<st>_long_latest.csv`: (`stream_id`, `observation_week`, `analysis_region_type`, `analysis_region_id`, `pathogen`, `feature_name`).
 - `<st>_long_all_versions.csv.gz`: the same columns plus `source_snapshot_id`.
 
-**Latest vs. all versions.** `<st>_long_latest.csv` keeps, for each key, the value from the most recent release that contains it. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `<st>_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from 2025-04-04, NSSP from 2025-08-15, NWSS from 2026-08-07.
+**Latest vs. all versions.** `<st>_long_latest.csv` keeps, for each key, the value from the most recent release that contains it. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `<st>_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from <!-- auto:first_nhsn -->2025-04-04<!-- /auto:first_nhsn -->, NSSP from <!-- auto:first_nssp -->2025-08-15<!-- /auto:first_nssp -->, NWSS from <!-- auto:first_nwss -->2026-08-07<!-- /auto:first_nwss -->.
 
 **Reading tip:** read all columns as text first (`dtype=str, keep_default_na=False` in pandas). Otherwise leading zeros in FIPS codes are lost, and categorical labels mix with numbers in `weekly_feature`.
 
@@ -87,7 +87,7 @@ Rows exist only for (region, week) combinations the source reports. Within a row
 
 ## 4. All-sources wide table
 
-`<st>_all_sources_wide.csv` has one row per week, spanning every week in any source (2020-08-08 to 2026-08-22), and one column per region, site, measure, and pathogen. Nothing is aggregated or averaged: each ED region and each wastewater site keeps its own columns. Column counts range from about 100 to 3,200 depending on how many regions and sites a state has.
+`<st>_all_sources_wide.csv` has one row per week, spanning every week in any source (<!-- auto:weeks_all_sources -->2020-08-08 to 2026-10-03<!-- /auto:weeks_all_sources -->), and one column per region, site, measure, and pathogen. Nothing is aggregated or averaged: each ED region and each wastewater site keeps its own columns. Column counts range from about 100 to 3,200 depending on how many regions and sites a state has.
 
 **Column-naming rule:** `[<prefix>]<measure>_<pathogen>[_flag]`. The prefix identifies where the value comes from:
 
@@ -103,7 +103,7 @@ The measure names never overlap between NHSN and NSSP, so the unprefixed state-l
 
 Blank cells:
 
-- A blank flag means the source has no record for that region and week, for example weeks before a site started reporting, or weeks after a source's last published week. NHSN and NSSP end on 2026-08-08, while NWSS runs to 2026-08-22.
+- A blank flag means the source has no record for that region and week, for example weeks before a site started reporting, or weeks after a source's last published week. <!-- auto:source_end_dates -->All three sources end on 2026-10-03.<!-- /auto:source_end_dates -->
 - A blank value with a non-blank flag is a reported gap.
 
 Every wastewater site in the state appears here, including the few that serve counties in more than one ED region or more than one state.
@@ -200,7 +200,7 @@ Rules and per-state thresholds are in [METHODS.md](METHODS.md) and `metadata/obs
 | `nhsn_first_week`, `nhsn_last_week`, `nssp_first_week`, `nssp_last_week`, `nwss_first_week`, `nwss_last_week` | First and last week with a value for the source's primary measure |
 | `long_latest_rows`, `all_sources_wide_columns` | Table sizes |
 | `revision_history_included` | Whether an all-versions table is published for the state (true for every state since 1.1.0) |
-| `revision_history_location` | Where it is published: `repo` (in `data/<ST>/`) or `release` (GitHub Release asset only) |
+| `revision_history_location` | Where it is published: `release` (GitHub Release assets; until 1.1.0, South Carolina's was `repo`, in `data/SC/`) |
 | `all_checks_passed` | Whether every consistency check in the quality report passed |
 
 **`metadata/observation_state_thresholds.csv`**, one row per state, gives the thresholds actually applied:
@@ -214,4 +214,4 @@ Rules and per-state thresholds are in [METHODS.md](METHODS.md) and `metadata/obs
 
 **`metadata/manifest.csv`** lists `path`, `bytes`, and `sha256` for every file under `data/`.
 
-**`metadata/release_assets.csv`** lists every revision-history file attached to the GitHub Release: `file`, `state`, `bytes`, `sha256`, and `url` (direct download link for the release this metadata belongs to). Check a downloaded file against its `sha256`.
+**`metadata/release_assets.csv`** lists every revision-history file of every state, in order: `tag` (the release the file is attached to), `version` (build rules), `state`, `file`, `kind` (`full` or `increment`), `as_of` (as-of date of that release), `snapshots` and `rows` (source releases and rows in the file), `bytes`, `sha256`, and `url` (direct download link). A state's files, concatenated in this order, form its complete revision history. Check each downloaded file against its `sha256`.
