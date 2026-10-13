@@ -16,12 +16,23 @@ Each release is tagged `v<version>+<data date>`, for example `v1.0.0+2026-10-16`
 
 Under Semantic Versioning, the part after `+` is build metadata: it does not affect version precedence. Two tags with the same version and different data dates are built with the same rules.
 
+## 1.0.0+2026-10-09 (released 2026-10-13)
+
+Data refresh with newer CDC source releases; the build rules are unchanged.
+
+<!-- auto:changelog_data -->
+- Source releases used, latest of each: NHSN 2026-10-09, NSSP 2026-10-07, NWSS 2026-10-09. Weeks covered: NHSN through 2026-10-03, NSSP through 2026-10-03, NWSS through 2026-10-03.
+- Revision history covers 116 NHSN, 53 NSSP, 10 NWSS releases. Release assets added in this release: 51 increment (see `metadata/release_assets.csv`).
+- Compared with 1.0.0+2026-10-02: 20,525 rows added and 0 removed in the latest-value tables; 223,331 values revised; 15,626 `observation_state` values changed.
+<!-- /auto:changelog_data -->
+
 ## 1.0.0+2026-10-02 (released 2026-10-13)
 
 First release: weekly COVID-19, influenza, and RSV data for the 50 states and DC from three CDC surveillance systems (NHSN hospital admissions, NSSP emergency department visits, NWSS wastewater) and US Census context, with a reliability flag on every value, the CDC source release behind every value (`metadata/source_snapshots.csv`), and every state's revision history as release assets (`metadata/release_assets.csv`). See the README for the files and METHODS.md for how they are built.
 
 <!-- auto:changelog_data -->
-- Source releases used, latest of each: NHSN 2026-10-02, NSSP 2026-09-30, NWSS 2026-10-02. Weeks covered: NHSN through 2026-09-26, NSSP through 2026-09-26, NWSS through 2026-09-26.
-- Revision history covers 114 NHSN, 52 NSSP, 9 NWSS releases. Release assets added in this release: 51 full (see `metadata/release_assets.csv`).
+- Source releases used, latest of each: NHSN 2026-10-09, NSSP 2026-10-07, NWSS 2026-10-09. Weeks covered: NHSN through 2026-10-03, NSSP through 2026-10-03, NWSS through 2026-10-03.
+- Revision history covers 116 NHSN, 53 NSSP, 10 NWSS releases. Release assets added in this release: 51 increment (see `metadata/release_assets.csv`).
+- Compared with 1.0.0+2026-10-02: 20,525 rows added and 0 removed in the latest-value tables; 223,331 values revised; 15,626 `observation_state` values changed.
 <!-- /auto:changelog_data -->
 
