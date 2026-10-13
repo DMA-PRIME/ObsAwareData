@@ -1,0 +1,25 @@
+analysis_region,analysis_region_type,analysis_region_id,product,variable,value
+District of Columbia,state,11,acs_5yr_2022,total_population,670587
+District of Columbia,state,11,acs_5yr_2022,total_population_moe,-555555555
+District of Columbia,state,11,acs_5yr_2022,median_age,34.8
+District of Columbia,state,11,acs_5yr_2022,median_age_moe,0.1
+District of Columbia,state,11,acs_5yr_2022,percent_male,47.8
+District of Columbia,state,11,acs_5yr_2022,population_under_18,124056
+District of Columbia,state,11,acs_5yr_2022,population_under_18_moe,82
+District of Columbia,state,11,acs_5yr_2022,population_65_plus,84451
+District of Columbia,state,11,acs_5yr_2022,population_65_plus_moe,68
+District of Columbia,state,11,acs_5yr_2022,percent_white_alone,39.6
+District of Columbia,state,11,acs_5yr_2022,percent_black_alone,44.3
+District of Columbia,state,11,acs_5yr_2022,percent_asian_alone,4.0
+District of Columbia,state,11,acs_5yr_2022,percent_hispanic_or_latino,11.5
+District of Columbia,state,11,acs_5yr_2022,median_household_income,101722
+District of Columbia,state,11,acs_5yr_2022,median_household_income_moe,1569
+District of Columbia,state,11,acs_5yr_2022,percent_below_poverty_all_people,15.1
+District of Columbia,state,11,acs_5yr_2022,percent_bachelor_or_higher_25plus,62.6
+District of Columbia,state,11,acs_5yr_2022,unemployment_rate,7.1
+District of Columbia,state,11,acs_5yr_2022,percent_no_health_insurance,3.4
+District of Columbia,state,11,acs_5yr_2022,percent_no_vehicle_available,35.7
+District of Columbia,state,11,acs_5yr_2022,percent_broadband_internet_subscription,89.0
+District of Columbia,state,11,acs_5yr_2022,percent_occupants_per_room_1_01_to_1_50,1.8
+District of Columbia,state,11,acs_5yr_2022,percent_occupants_per_room_1_51_plus,1.9
+District of Columbia,state,11,population_estimates_2022,POPESTIMATE2022,671803

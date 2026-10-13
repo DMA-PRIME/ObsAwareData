@@ -1,0 +1,25 @@
+analysis_region,analysis_region_type,analysis_region_id,product,variable,value
+New Jersey,state,34,acs_5yr_2022,total_population,9249063
+New Jersey,state,34,acs_5yr_2022,total_population_moe,-555555555
+New Jersey,state,34,acs_5yr_2022,median_age,40.0
+New Jersey,state,34,acs_5yr_2022,median_age_moe,0.2
+New Jersey,state,34,acs_5yr_2022,percent_male,49.3
+New Jersey,state,34,acs_5yr_2022,population_under_18,2015561
+New Jersey,state,34,acs_5yr_2022,population_under_18_moe,214
+New Jersey,state,34,acs_5yr_2022,population_65_plus,1532614
+New Jersey,state,34,acs_5yr_2022,population_65_plus_moe,333
+New Jersey,state,34,acs_5yr_2022,percent_white_alone,59.8
+New Jersey,state,34,acs_5yr_2022,percent_black_alone,13.1
+New Jersey,state,34,acs_5yr_2022,percent_asian_alone,9.9
+New Jersey,state,34,acs_5yr_2022,percent_hispanic_or_latino,21.2
+New Jersey,state,34,acs_5yr_2022,median_household_income,97126
+New Jersey,state,34,acs_5yr_2022,median_household_income_moe,605
+New Jersey,state,34,acs_5yr_2022,percent_below_poverty_all_people,9.7
+New Jersey,state,34,acs_5yr_2022,percent_bachelor_or_higher_25plus,42.3
+New Jersey,state,34,acs_5yr_2022,unemployment_rate,6.2
+New Jersey,state,34,acs_5yr_2022,percent_no_health_insurance,7.5
+New Jersey,state,34,acs_5yr_2022,percent_no_vehicle_available,11.3
+New Jersey,state,34,acs_5yr_2022,percent_broadband_internet_subscription,90.6
+New Jersey,state,34,acs_5yr_2022,percent_occupants_per_room_1_01_to_1_50,2.3
+New Jersey,state,34,acs_5yr_2022,percent_occupants_per_room_1_51_plus,1.3
+New Jersey,state,34,population_estimates_2022,POPESTIMATE2022,9261699

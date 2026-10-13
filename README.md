@@ -4,18 +4,18 @@ Weekly COVID-19, influenza, and RSV surveillance data for all 50 states and the 
 
 | Source | What it measures | Geography | Weeks covered |
 |---|---|---|---|
-| NHSN Hospital Respiratory Data | New hospital admissions and number of reporting hospitals | State | <!-- auto:weeks_nhsn -->2020-08-08 to 2026-10-03<!-- /auto:weeks_nhsn --> |
-| NSSP Emergency Department Visit Trajectories | Percent of ED visits for each pathogen, CDC trend label | State and CDC health service areas (multi-county regions) | <!-- auto:weeks_nssp -->2022-10-01 to 2026-10-03<!-- /auto:weeks_nssp --> |
-| NWSS Wastewater Viral Activity Level | Wastewater viral activity index and category | Individual wastewater sampling sites | <!-- auto:weeks_nwss -->2022-01-01 to 2026-10-03<!-- /auto:weeks_nwss --> |
+| NHSN Hospital Respiratory Data | New hospital admissions and number of reporting hospitals | State | <!-- auto:weeks_nhsn -->2020-08-08 to 2026-09-26<!-- /auto:weeks_nhsn --> |
+| NSSP Emergency Department Visit Trajectories | Percent of ED visits for each pathogen, CDC trend label | State and CDC health service areas (multi-county regions) | <!-- auto:weeks_nssp -->2022-10-01 to 2026-09-26<!-- /auto:weeks_nssp --> |
+| NWSS Wastewater Viral Activity Level | Wastewater viral activity index and category | Individual wastewater sampling sites | <!-- auto:weeks_nwss -->2022-01-01 to 2026-09-26<!-- /auto:weeks_nwss --> |
 | Census ACS 5-year 2022 and Population Estimates 2022 | Population and socioeconomic context | State | Static |
 
-Weeks end on Saturday (MMWR week ending date). The latest values reflect the CDC releases available on <!-- auto:latest_releases -->2026-10-09 (NHSN, NWSS) and 2026-10-07 (NSSP)<!-- /auto:latest_releases -->. Details and links for each source are in [DATA_SOURCES.md](DATA_SOURCES.md).
+Weeks end on Saturday (MMWR week ending date). The latest values reflect the CDC releases available on <!-- auto:latest_releases -->2026-10-02 (NHSN, NWSS) and 2026-09-30 (NSSP)<!-- /auto:latest_releases -->. Details and links for each source are in [DATA_SOURCES.md](DATA_SOURCES.md).
 
 ## What makes this dataset different
 
 - **Reliability flags on every value.** Each value is labeled `observed_valid`, `observed_zero`, `observed_low_coverage`, `flagged_anomalous`, `incidental_missing`, or `structural_absent`, so a missing or questionable week is never silently treated as a real zero or a normal reading.
 - **Traceable to the source release.** Each row in the long tables records the CDC release it came from (`source_snapshot_id`, `as_of_date`); [`metadata/source_snapshots.csv`](metadata/source_snapshots.csv) gives each release's SHA-256 and a link to an unmodified copy of the raw file.
-- **Full revision history for every state.** Every published version of every value across <!-- auto:releases_nhsn -->116<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->53<!-- /auto:releases_nssp --> NSSP, and <!-- auto:releases_nwss -->10<!-- /auto:releases_nwss --> NWSS releases is available for all 50 states and DC. These releases are dated <!-- auto:release_windows -->April 2025 to October 2026 (NHSN), August 2025 to October 2026 (NSSP), and August to October 2026 (NWSS)<!-- /auto:release_windows -->, so you can reconstruct what was known on any date in those windows. In South Carolina, for example, about a quarter of all values were revised after first publication. The revision-history files are large, so they are distributed as [GitHub Release assets](https://github.com/DMA-PRIME/ObsAwareData/releases) rather than in the repository; see [Revision history downloads](#revision-history-downloads).
+- **Full revision history for every state.** Every published version of every value across <!-- auto:releases_nhsn -->114<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->52<!-- /auto:releases_nssp --> NSSP, and <!-- auto:releases_nwss -->9<!-- /auto:releases_nwss --> NWSS releases is available for all 50 states and DC. These releases are dated <!-- auto:release_windows -->April 2025 to October 2026 (NHSN), August 2025 to September 2026 (NSSP), and August to October 2026 (NWSS)<!-- /auto:release_windows -->, so you can reconstruct what was known on any date in those windows. In South Carolina, for example, about a quarter of all values were revised after first publication. The revision-history files are large, so they are distributed as [GitHub Release assets](https://github.com/DMA-PRIME/ObsAwareData/releases) rather than in the repository; see [Revision history downloads](#revision-history-downloads).
 - **No invented aggregation.** Sub-state regions and wastewater sites keep their own columns; nothing is averaged, weighted, or reallocated across geographies.
 
 ## Repository layout
