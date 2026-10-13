@@ -1,0 +1,5 @@
+# Keep data files byte-for-byte as published (checksums in metadata/manifest.csv)
+*.csv -text
+*.gz binary
+# Quality reports are listed in metadata/manifest.csv, so keep their bytes too
+data/**/*.md -text
