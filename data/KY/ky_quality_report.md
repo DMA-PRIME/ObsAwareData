@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 21
 - Emergency-department regions (CDC health service areas): 31
 - Wastewater sampling sites: 34 (with COVID-19 data: 34; influenza A: 21; RSV: 13)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (95 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `ky_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `ky_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `ky_long_latest_2022.csv` | 6,556 | 16 | 1.7 |
-| `ky_long_latest_2023.csv` | 21,062 | 16 | 5.4 |
-| `ky_long_latest_2024.csv` | 24,218 | 16 | 6.2 |
-| `ky_long_latest_2025.csv` | 26,732 | 16 | 6.7 |
-| `ky_long_latest_2026.csv` | 20,933 | 16 | 5.3 |
+| `ky_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `ky_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `ky_long_latest_2022.csv` | 6,556 | 15 | 1.6 |
+| `ky_long_latest_2023.csv` | 21,062 | 15 | 5.2 |
+| `ky_long_latest_2024.csv` | 24,218 | 15 | 5.9 |
+| `ky_long_latest_2025.csv` | 26,732 | 15 | 6.4 |
+| `ky_long_latest_2026.csv` | 20,933 | 15 | 5.0 |
 | `ky_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `ky_nssp_wide.csv` | 6,720 | 30 | 2.6 |
 | `ky_nwss_wide.csv` | 2,378 | 24 | 0.6 |

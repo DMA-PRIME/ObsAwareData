@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 34
 - Emergency-department regions (CDC health service areas): 9
 - Wastewater sampling sites: 27 (with COVID-19 data: 27; influenza A: 27; RSV: 27)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (86 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `nj_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `nj_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `nj_long_latest_2022.csv` | 2,845 | 16 | 0.7 |
-| `nj_long_latest_2023.csv` | 13,319 | 16 | 3.2 |
-| `nj_long_latest_2024.csv` | 17,870 | 16 | 4.3 |
-| `nj_long_latest_2025.csv` | 17,897 | 16 | 4.3 |
-| `nj_long_latest_2026.csv` | 13,967 | 16 | 3.3 |
+| `nj_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `nj_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `nj_long_latest_2022.csv` | 2,845 | 15 | 0.7 |
+| `nj_long_latest_2023.csv` | 13,319 | 15 | 3.1 |
+| `nj_long_latest_2024.csv` | 17,870 | 15 | 4.1 |
+| `nj_long_latest_2025.csv` | 17,897 | 15 | 4.1 |
+| `nj_long_latest_2026.csv` | 13,967 | 15 | 3.2 |
 | `nj_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `nj_nssp_wide.csv` | 2,100 | 30 | 0.8 |
 | `nj_nwss_wide.csv` | 4,539 | 24 | 1.3 |

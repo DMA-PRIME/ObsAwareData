@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 26
 - Emergency-department regions (CDC health service areas): 25
 - Wastewater sampling sites: 72 (with COVID-19 data: 63; influenza A: 55; RSV: 52)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-08-07, 2026-09-25, 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (82 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `mi_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `mi_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `mi_long_latest_2022.csv` | 11,338 | 16 | 2.7 |
-| `mi_long_latest_2023.csv` | 25,871 | 16 | 6.5 |
-| `mi_long_latest_2024.csv` | 31,880 | 16 | 7.8 |
-| `mi_long_latest_2025.csv` | 26,237 | 16 | 6.6 |
-| `mi_long_latest_2026.csv` | 22,613 | 16 | 5.6 |
+| `mi_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `mi_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `mi_long_latest_2022.csv` | 11,338 | 15 | 2.6 |
+| `mi_long_latest_2023.csv` | 25,871 | 15 | 6.2 |
+| `mi_long_latest_2024.csv` | 31,880 | 15 | 7.5 |
+| `mi_long_latest_2025.csv` | 26,237 | 15 | 6.3 |
+| `mi_long_latest_2026.csv` | 22,613 | 15 | 5.3 |
 | `mi_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `mi_nssp_wide.csv` | 5,460 | 30 | 2.1 |
 | `mi_nwss_wide.csv` | 10,049 | 24 | 2.1 |

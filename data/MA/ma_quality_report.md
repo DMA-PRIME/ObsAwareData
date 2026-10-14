@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 25
 - Emergency-department regions (CDC health service areas): 6
 - Wastewater sampling sites: 12 (with COVID-19 data: 12; influenza A: 8; RSV: 8)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (79 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `ma_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `ma_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `ma_long_latest_2022.csv` | 2,416 | 16 | 0.6 |
-| `ma_long_latest_2023.csv` | 6,725 | 16 | 1.6 |
-| `ma_long_latest_2024.csv` | 7,427 | 16 | 1.8 |
-| `ma_long_latest_2025.csv` | 7,265 | 16 | 1.8 |
-| `ma_long_latest_2026.csv` | 5,448 | 16 | 1.3 |
+| `ma_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `ma_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `ma_long_latest_2022.csv` | 2,416 | 15 | 0.5 |
+| `ma_long_latest_2023.csv` | 6,725 | 15 | 1.6 |
+| `ma_long_latest_2024.csv` | 7,427 | 15 | 1.7 |
+| `ma_long_latest_2025.csv` | 7,265 | 15 | 1.7 |
+| `ma_long_latest_2026.csv` | 5,448 | 15 | 1.3 |
 | `ma_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `ma_nssp_wide.csv` | 1,470 | 30 | 0.5 |
 | `ma_nwss_wide.csv` | 1,679 | 24 | 0.4 |

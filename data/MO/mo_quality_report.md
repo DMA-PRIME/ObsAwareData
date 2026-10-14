@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 29
 - Emergency-department regions (CDC health service areas): 27
 - Wastewater sampling sites: 81 (with COVID-19 data: 81; influenza A: 74; RSV: 67)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-08-07, 2026-08-21, 2026-09-04, 2026-09-25, 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (86 releases); ED visits 2026-06-12 to 2026-10-07 (16 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `mo_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `mo_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `mo_long_latest_2022.csv` | 18,526 | 16 | 4.4 |
-| `mo_long_latest_2023.csv` | 31,610 | 16 | 7.8 |
-| `mo_long_latest_2024.csv` | 36,164 | 16 | 8.9 |
-| `mo_long_latest_2025.csv` | 36,581 | 16 | 9.0 |
-| `mo_long_latest_2026.csv` | 23,468 | 16 | 5.8 |
+| `mo_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `mo_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `mo_long_latest_2022.csv` | 18,526 | 15 | 4.2 |
+| `mo_long_latest_2023.csv` | 31,610 | 15 | 7.5 |
+| `mo_long_latest_2024.csv` | 36,164 | 15 | 8.5 |
+| `mo_long_latest_2025.csv` | 36,581 | 15 | 8.6 |
+| `mo_long_latest_2026.csv` | 23,468 | 15 | 5.6 |
 | `mo_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `mo_nssp_wide.csv` | 5,880 | 30 | 2.3 |
 | `mo_nwss_wide.csv` | 11,996 | 24 | 2.8 |

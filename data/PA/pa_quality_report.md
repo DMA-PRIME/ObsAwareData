@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 42
 - Emergency-department regions (CDC health service areas): 26
 - Wastewater sampling sites: 49 (with COVID-19 data: 49; influenza A: 41; RSV: 34)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (82 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `pa_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `pa_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `pa_long_latest_2022.csv` | 7,636 | 16 | 1.9 |
-| `pa_long_latest_2023.csv` | 24,122 | 16 | 6.0 |
-| `pa_long_latest_2024.csv` | 26,771 | 16 | 6.6 |
-| `pa_long_latest_2025.csv` | 31,076 | 16 | 7.6 |
-| `pa_long_latest_2026.csv` | 25,235 | 16 | 6.2 |
+| `pa_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `pa_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `pa_long_latest_2022.csv` | 7,636 | 15 | 1.8 |
+| `pa_long_latest_2023.csv` | 24,122 | 15 | 5.7 |
+| `pa_long_latest_2024.csv` | 26,771 | 15 | 6.3 |
+| `pa_long_latest_2025.csv` | 31,076 | 15 | 7.3 |
+| `pa_long_latest_2026.csv` | 25,235 | 15 | 5.9 |
 | `pa_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `pa_nssp_wide.csv` | 5,670 | 30 | 2.3 |
 | `pa_nwss_wide.csv` | 7,934 | 24 | 1.8 |

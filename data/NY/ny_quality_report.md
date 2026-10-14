@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 36
 - Emergency-department regions (CDC health service areas): 21
 - Wastewater sampling sites: 173 (with COVID-19 data: 173; influenza A: 83; RSV: 83)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-09-11, 2026-09-25, 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (84 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `ny_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `ny_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `ny_long_latest_2022.csv` | 17,410 | 16 | 4.1 |
-| `ny_long_latest_2023.csv` | 37,361 | 16 | 9.0 |
-| `ny_long_latest_2024.csv` | 40,643 | 16 | 9.7 |
-| `ny_long_latest_2025.csv` | 41,480 | 16 | 9.9 |
-| `ny_long_latest_2026.csv` | 42,974 | 16 | 10.2 |
+| `ny_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `ny_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `ny_long_latest_2022.csv` | 17,410 | 15 | 3.9 |
+| `ny_long_latest_2023.csv` | 37,361 | 15 | 8.6 |
+| `ny_long_latest_2024.csv` | 40,643 | 15 | 9.3 |
+| `ny_long_latest_2025.csv` | 41,480 | 15 | 9.5 |
+| `ny_long_latest_2026.csv` | 42,974 | 15 | 9.7 |
 | `ny_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `ny_nssp_wide.csv` | 4,620 | 30 | 1.8 |
 | `ny_nwss_wide.csv` | 32,423 | 24 | 5.7 |

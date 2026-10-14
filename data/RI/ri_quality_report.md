@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 44
 - Emergency-department regions (CDC health service areas): 2
 - Wastewater sampling sites: 13 (with COVID-19 data: 13; influenza A: 12; RSV: 12)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (78 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `ri_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `ri_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `ri_long_latest_2022.csv` | 1,693 | 16 | 0.4 |
-| `ri_long_latest_2023.csv` | 3,497 | 16 | 0.8 |
-| `ri_long_latest_2024.csv` | 4,913 | 16 | 1.1 |
-| `ri_long_latest_2025.csv` | 7,472 | 16 | 1.8 |
-| `ri_long_latest_2026.csv` | 5,999 | 16 | 1.4 |
+| `ri_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `ri_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `ri_long_latest_2022.csv` | 1,693 | 15 | 0.4 |
+| `ri_long_latest_2023.csv` | 3,497 | 15 | 0.8 |
+| `ri_long_latest_2024.csv` | 4,913 | 15 | 1.1 |
+| `ri_long_latest_2025.csv` | 7,472 | 15 | 1.7 |
+| `ri_long_latest_2026.csv` | 5,999 | 15 | 1.3 |
 | `ri_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `ri_nssp_wide.csv` | 630 | 30 | 0.2 |
 | `ri_nwss_wide.csv` | 2,186 | 24 | 0.5 |

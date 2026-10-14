@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 13
 - Emergency-department regions (CDC health service areas): 42
 - Wastewater sampling sites: 30 (with COVID-19 data: 30; influenza A: 29; RSV: 28)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-08-07, 2026-09-11, 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (82 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `ga_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `ga_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `ga_long_latest_2022.csv` | 9,817 | 16 | 2.5 |
-| `ga_long_latest_2023.csv` | 33,098 | 16 | 8.4 |
-| `ga_long_latest_2024.csv` | 35,801 | 16 | 9.0 |
-| `ga_long_latest_2025.csv` | 36,101 | 16 | 9.1 |
-| `ga_long_latest_2026.csv` | 28,292 | 16 | 7.1 |
+| `ga_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `ga_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `ga_long_latest_2022.csv` | 9,817 | 15 | 2.3 |
+| `ga_long_latest_2023.csv` | 33,098 | 15 | 8.0 |
+| `ga_long_latest_2024.csv` | 35,801 | 15 | 8.6 |
+| `ga_long_latest_2025.csv` | 36,101 | 15 | 8.7 |
+| `ga_long_latest_2026.csv` | 28,292 | 15 | 6.8 |
 | `ga_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `ga_nssp_wide.csv` | 9,030 | 30 | 3.6 |
 | `ga_nwss_wide.csv` | 4,484 | 24 | 1.2 |

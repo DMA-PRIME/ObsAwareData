@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 47
 - Emergency-department regions (CDC health service areas): 28
 - Wastewater sampling sites: 10 (with COVID-19 data: 10; influenza A: 4; RSV: 4)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-07 (101 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `tn_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `tn_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `tn_long_latest_2022.csv` | 5,995 | 16 | 1.5 |
-| `tn_long_latest_2023.csv` | 20,063 | 16 | 5.1 |
-| `tn_long_latest_2024.csv` | 20,147 | 16 | 5.2 |
-| `tn_long_latest_2025.csv` | 19,439 | 16 | 5.0 |
-| `tn_long_latest_2026.csv` | 14,960 | 16 | 3.8 |
+| `tn_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `tn_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `tn_long_latest_2022.csv` | 5,995 | 15 | 1.4 |
+| `tn_long_latest_2023.csv` | 20,063 | 15 | 4.9 |
+| `tn_long_latest_2024.csv` | 20,147 | 15 | 4.9 |
+| `tn_long_latest_2025.csv` | 19,439 | 15 | 4.8 |
+| `tn_long_latest_2026.csv` | 14,960 | 15 | 3.7 |
 | `tn_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `tn_nssp_wide.csv` | 6,090 | 30 | 2.3 |
 | `tn_nwss_wide.csv` | 1,028 | 24 | 0.2 |
