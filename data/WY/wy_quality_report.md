@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 56
 - Emergency-department regions (CDC health service areas): 13
 - Wastewater sampling sites: 8 (with COVID-19 data: 8; influenza A: 5; RSV: 2)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-09 (85 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `wy_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `wy_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `wy_long_latest_2022.csv` | 3,010 | 16 | 0.7 |
-| `wy_long_latest_2023.csv` | 9,788 | 16 | 2.3 |
-| `wy_long_latest_2024.csv` | 11,237 | 16 | 2.6 |
-| `wy_long_latest_2025.csv` | 11,420 | 16 | 2.7 |
-| `wy_long_latest_2026.csv` | 8,618 | 16 | 2.0 |
+| `wy_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `wy_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `wy_long_latest_2022.csv` | 3,010 | 15 | 0.7 |
+| `wy_long_latest_2023.csv` | 9,788 | 15 | 2.2 |
+| `wy_long_latest_2024.csv` | 11,237 | 15 | 2.5 |
+| `wy_long_latest_2025.csv` | 11,420 | 15 | 2.6 |
+| `wy_long_latest_2026.csv` | 8,618 | 15 | 1.9 |
 | `wy_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `wy_nssp_wide.csv` | 2,940 | 30 | 1.1 |
 | `wy_nwss_wide.csv` | 1,271 | 24 | 0.3 |

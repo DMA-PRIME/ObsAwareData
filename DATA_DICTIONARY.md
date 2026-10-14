@@ -39,14 +39,14 @@ All wide tables are reshaped from the `<st>_long_latest_<year>.csv` files and co
 
 The latest-value table is split into one file per year: `<st>_long_latest_<year>.csv` holds the weeks whose `observation_week` falls in `<year>` (for example, `tx_long_latest_2025.csv`). The files have the same columns; concatenate a state's files to get the complete table. A new file appears when the first week of a new year is published.
 
-`<st>_long_latest_<year>.csv` and `<st>_long_all_versions.csv.gz` have the same 16 columns:
+`<st>_long_all_versions.csv.gz` has the 16 columns below; `<st>_long_latest_<year>.csv` has the same columns without `extract_timestamp` (15 columns):
 
 | Column | Type | Description |
 |---|---|---|
 | `stream_id` | text | Source system: `nhsn` (hospital admissions), `nssp` (ED visits), `nwss` (wastewater). |
-| `source_snapshot_id` | text | The CDC release this value came from: `<stream>_<YYYYMMDD>[_<channel>]_<hash12>`. `<YYYYMMDD>` is the release date, `<channel>` (NHSN and NSSP) is `standard` or `preliminary`, and `<hash12>` is the first 12 hex digits of the raw file's SHA-256. The full SHA-256 and a download link for the archived raw file are in [`metadata/source_snapshots.csv`](#8-quality-report-and-metadata-files). |
+| `source_snapshot_id` | text | The CDC release this value came from: `<stream>_<YYYYMMDD>[_<channel>]_<hash12>`. `<YYYYMMDD>` is the release date, `<channel>` (NHSN and NSSP) is `standard` or `preliminary`, and `<hash12>` is the first 12 hex digits of the raw file's SHA-256. The full SHA-256 and a download link for the archived raw file are in [`metadata/source_snapshots.csv`](#8-quality-report-and-metadata-files). In the latest-value files it is the earliest release since which every release carrying the row has published this same value and flags; the value is also the newest release's. A latest-value row therefore changes only when its content does. |
 | `as_of_date` | date | Release date of that source file. |
-| `extract_timestamp` | date | In the latest-value files: the release's as-of date (only CDC source files released on or before it were used), the same for every row. In the revision history: the as-of date of the ObsAwareData release that first published the row's source release, so a published row never changes. |
+| `extract_timestamp` | date | Revision history only: the as-of date of the ObsAwareData release that first published the row's source release, so a published row never changes. |
 | `observation_week` | date | Week-ending Saturday the value describes (not when it was published). |
 | `analysis_region` | text | Human-readable region name, e.g. `California`, `Butte (Chico), CA - Tehama, CA`, or a site ID. |
 | `analysis_region_type` | text | `state`, `sub_state_hsa` (CDC health service area), or `sampling_site` (wastewater site). |
@@ -65,7 +65,7 @@ The latest-value table is split into one file per year: `<st>_long_latest_<year>
 - `<st>_long_latest_<year>.csv` (all years together): (`stream_id`, `observation_week`, `analysis_region_type`, `analysis_region_id`, `pathogen`, `feature_name`).
 - `<st>_long_all_versions.csv.gz`: the same columns plus `source_snapshot_id`.
 
-**Latest vs. all versions.** The latest-value table keeps, for each key, the value from the most recent release that contains it. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `<st>_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from <!-- auto:first_nhsn -->2025-04-04<!-- /auto:first_nhsn -->, NSSP from <!-- auto:first_nssp -->2025-08-15<!-- /auto:first_nssp -->, NWSS from <!-- auto:first_nwss -->2026-08-07<!-- /auto:first_nwss -->.
+**Latest vs. all versions.** The latest-value table keeps, for each key, the value from the most recent release that contains it, and cites the earliest release since which that value and its flags have been published unchanged. When two releases share an `as_of_date`, the `standard` release is preferred over `preliminary`. Because values are revised after first publication, filtering `<st>_long_all_versions.csv.gz` to releases with `as_of_date <= D` and keeping the latest per key reconstructs the data as it was available on date `D`. This works for any `D` covered by the retained releases: NHSN from <!-- auto:first_nhsn -->2025-04-04<!-- /auto:first_nhsn -->, NSSP from <!-- auto:first_nssp -->2025-08-15<!-- /auto:first_nssp -->, NWSS from <!-- auto:first_nwss -->2026-08-07<!-- /auto:first_nwss -->.
 
 **Reading tip:** read all columns as text first (`dtype=str, keep_default_na=False` in pandas). Otherwise leading zeros in FIPS codes are lost, and categorical labels mix with numbers in `weekly_feature`.
 

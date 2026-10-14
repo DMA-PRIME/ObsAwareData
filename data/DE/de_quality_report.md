@@ -7,19 +7,19 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 10
 - Emergency-department regions (CDC health service areas): 2
 - Wastewater sampling sites: 9 (with COVID-19 data: 9; influenza A: 9; RSV: 8)
-- Source snapshot dates used for the latest values: hospital admissions 2026-10-09; ED visits 2026-10-07; wastewater 2026-10-09
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-07 (82 releases); ED visits 2025-08-15 to 2026-10-07 (48 releases); wastewater 2026-08-07 to 2026-10-09 (10 releases)
 
 ## Files
 
 | File | Rows | Columns | Size (MB) |
 |---|---|---|---|
-| `de_long_latest_2020.csv` | 189 | 16 | 0.0 |
-| `de_long_latest_2021.csv` | 468 | 16 | 0.1 |
-| `de_long_latest_2022.csv` | 1,897 | 16 | 0.4 |
-| `de_long_latest_2023.csv` | 4,772 | 16 | 1.1 |
-| `de_long_latest_2024.csv` | 6,032 | 16 | 1.4 |
-| `de_long_latest_2025.csv` | 5,441 | 16 | 1.2 |
-| `de_long_latest_2026.csv` | 4,343 | 16 | 1.0 |
+| `de_long_latest_2020.csv` | 189 | 15 | 0.0 |
+| `de_long_latest_2021.csv` | 468 | 15 | 0.1 |
+| `de_long_latest_2022.csv` | 1,897 | 15 | 0.4 |
+| `de_long_latest_2023.csv` | 4,772 | 15 | 1.0 |
+| `de_long_latest_2024.csv` | 6,032 | 15 | 1.3 |
+| `de_long_latest_2025.csv` | 5,441 | 15 | 1.2 |
+| `de_long_latest_2026.csv` | 4,343 | 15 | 0.9 |
 | `de_nhsn_wide.csv` | 322 | 24 | 0.1 |
 | `de_nssp_wide.csv` | 630 | 30 | 0.2 |
 | `de_nwss_wide.csv` | 1,894 | 24 | 0.5 |

@@ -9,7 +9,7 @@ This document describes how the published tables were built from the public sour
 3. **Standardize to one long schema.** Every value becomes one row: source, release, week, region, pathogen, measure, value, unit, reliability flag, definition status. Only the fields listed in [DATA_SOURCES.md](DATA_SOURCES.md) are kept.
 4. **Build the revision history and the latest view.**
    - The revision history (published for every state as GitHub Release assets: a full file, then weekly increments) keeps one row per key per release.
-   - The latest view (`<st>_long_latest_<year>.csv`, one file per year of `observation_week`) keeps, for each key, the row from the release with the latest `as_of_date`. When two releases share a date, the NHSN/NSSP `standard` release is preferred over the `preliminary` one. This is a documented tie-break, not a claim that the standard release is final.
+   - The latest view (`<st>_long_latest_<year>.csv`, one file per year of `observation_week`) keeps, for each key, the row from the release with the latest `as_of_date`. When two releases share a date, the NHSN/NSSP `standard` release is preferred over the `preliminary` one. This is a documented tie-break, not a claim that the standard release is final. Each row cites (`source_snapshot_id`, `as_of_date`) the earliest release since which every release carrying the key has published the same value and flags, so a row of the latest view changes only when its content does.
 5. **Assign reliability flags** (section 3).
 6. **Reshape to wide tables.**
    - `<st>_nhsn_wide.csv`, `<st>_nssp_wide.csv`, `<st>_nwss_wide.csv`: one row per region and week.
