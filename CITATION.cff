@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below, and acknowledge CDC (NHSN, NSSP, NWSS) and the US Census Bureau as the original data sources."
 type: dataset
 title: "ObsAwareData: observation-aware weekly respiratory surveillance data for the 50 US states and DC"
-version: "2.0.0+2026-10-09"
-date-released: 2026-10-14
+version: "2.0.0+2026-10-16"
+date-released: 2026-10-18
 license: CC-BY-4.0
 authors:
   - family-names: "Wu"

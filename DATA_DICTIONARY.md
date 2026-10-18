@@ -88,7 +88,7 @@ Rows exist only for (region, week) combinations the source reports. Within a row
 
 ## 4. All-sources wide table
 
-`<st>_all_sources_wide.csv` has one row per week, spanning every week in any source (<!-- auto:weeks_all_sources -->2020-08-08 to 2026-10-03<!-- /auto:weeks_all_sources -->), and one column per region, site, measure, and pathogen. Nothing is aggregated or averaged: each ED region and each wastewater site keeps its own columns. Column counts range from about 100 to 3,200 depending on how many regions and sites a state has.
+`<st>_all_sources_wide.csv` has one row per week, spanning every week in any source (<!-- auto:weeks_all_sources -->2020-08-08 to 2026-10-10<!-- /auto:weeks_all_sources -->), and one column per region, site, measure, and pathogen. Nothing is aggregated or averaged: each ED region and each wastewater site keeps its own columns. Column counts range from about 100 to 3,200 depending on how many regions and sites a state has.
 
 **Column-naming rule:** `[<prefix>]<measure>_<pathogen>[_flag]`. The prefix identifies where the value comes from:
 
@@ -104,7 +104,7 @@ The measure names never overlap between NHSN and NSSP, so the unprefixed state-l
 
 Blank cells:
 
-- A blank flag means the source has no record for that region and week, for example weeks before a site started reporting, or weeks after a source's last published week. <!-- auto:source_end_dates -->All three sources end on 2026-10-03.<!-- /auto:source_end_dates -->
+- A blank flag means the source has no record for that region and week, for example weeks before a site started reporting, or weeks after a source's last published week. <!-- auto:source_end_dates -->All three sources end on 2026-10-10.<!-- /auto:source_end_dates -->
 - A blank value with a non-blank flag is a reported gap.
 
 Every wastewater site in the state appears here, including the few that serve counties in more than one ED region or more than one state.

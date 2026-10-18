@@ -12107,8 +12107,8 @@ nssp,nssp_20251119_standard_7c058013fffe,2025-11-19,2025-11-15,"Mississippi, AR"
 nssp,nssp_20251119_standard_7c058013fffe,2025-11-19,2025-11-15,"Mississippi, AR",sub_state_hsa,614,hsa_member_counties,Mississippi,rsv,ed_trend_category,Data Unavailable,categorical_trend,observed_low_coverage,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent,0.44,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent_smoothed,0.47,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent,0.45,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent_smoothed,0.48,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent,0.49,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent_smoothed,0.35,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-22,Arkansas,state,05,state_fips_placeholder,5000,rsv,ed_visit_percent,0.53,percent_ed_visits,observed_valid,confirmed
@@ -12372,7 +12372,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-11-29,Arkansas,state,05
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent,0.56,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent_smoothed,0.5,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent_smoothed,0.51,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent,0.61,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent_smoothed,0.54,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-06,Arkansas,state,05,state_fips_placeholder,5000,rsv,ed_visit_percent,0.6,percent_ed_visits,observed_valid,confirmed
@@ -13374,7 +13374,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent,1.25,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,covid,ed_visit_percent_smoothed,0.95,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent,7.18,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent,7.19,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,influenza,ed_visit_percent_smoothed,4.49,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,rsv,ed_visit_percent,1.05,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-27,Arkansas,state,05,state_fips_placeholder,5000,rsv,ed_visit_percent_smoothed,0.86,percent_ed_visits,observed_valid,confirmed
