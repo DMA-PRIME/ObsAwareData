@@ -4,7 +4,7 @@ This document describes how the published tables were built from the public sour
 
 ## 1. Processing overview
 
-1. **Register every source release.** Each downloaded nationwide file (<!-- auto:releases_nhsn -->118<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->54<!-- /auto:releases_nssp --> NSSP, <!-- auto:releases_nwss -->11<!-- /auto:releases_nwss --> NWSS releases, plus the Census extracts) is kept unmodified and registered with its release date and SHA-256 hash. Earlier releases are never overwritten by later ones.
+1. **Register every source release.** Each downloaded nationwide file (<!-- auto:releases_nhsn -->120<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->55<!-- /auto:releases_nssp --> NSSP, <!-- auto:releases_nwss -->12<!-- /auto:releases_nwss --> NWSS releases, plus the Census extracts) is kept unmodified and registered with its release date and SHA-256 hash. Earlier releases are never overwritten by later ones.
 2. **Filter to the state.** Each state's rows are selected from the nationwide files. National, regional, and territory records are excluded.
 3. **Standardize to one long schema.** Every value becomes one row: source, release, week, region, pathogen, measure, value, unit, reliability flag, definition status. Only the fields listed in [DATA_SOURCES.md](DATA_SOURCES.md) are kept.
 4. **Build the revision history and the latest view.**
@@ -107,4 +107,4 @@ The values applied to each state are in `metadata/observation_state_thresholds.c
    - NHSN influenza reporting in most states begins in October 2020.
    - North Dakota has no influenza A or RSV wastewater data. Its COVID-19 wastewater data (2 sites) end on 2023-09-16.
 5. **Wastewater activity levels are pathogen-specific indices.** Values are not comparable across pathogens; use the category for comparisons.
-6. **Snapshot of source data.** The latest values reflect CDC releases through <!-- auto:latest_releases -->2026-10-16 (NHSN, NWSS) and 2026-10-14 (NSSP)<!-- /auto:latest_releases -->. Later CDC revisions are not included.
+6. **Snapshot of source data.** The latest values reflect CDC releases through <!-- auto:latest_releases -->2026-10-23 (NHSN, NWSS) and 2026-10-21 (NSSP)<!-- /auto:latest_releases -->. Later CDC revisions are not included.
