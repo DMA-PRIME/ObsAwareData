@@ -3996,9 +3996,9 @@ nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:2,sampling_site,ID:2,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:2,sampling_site,ID:2,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,7.02,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.3,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.31,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,23.59,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,23.38,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,4.41,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4008,7 +4008,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-31,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,9.01,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.17,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,23.31,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-31,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4028,9 +4028,9 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-24,ID:4,sampling_site,ID:4,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:4,sampling_site,ID:4,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,5.46,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.02,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.03,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,17.44,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,17.45,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,3.68,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4040,7 +4040,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-24,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,6.69,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,9.8,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,10.13,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,14.92,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-24,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4060,7 +4060,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-17,ID:4,sampling_site,ID:4,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:4,sampling_site,ID:4,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,9.83,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.73,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.74,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,10.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4072,7 +4072,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-17,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-17,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,5.3,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.66,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.63,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,14.07,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-17,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4096,7 +4096,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,6.59,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.39,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,9.66,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4108,7 +4108,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-10,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,7.96,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.09,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.06,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,8.08,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-10,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4132,7 +4132,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,11.12,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,8.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,8.01,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,8.03,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4144,7 +4144,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-03,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,11.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.1,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.07,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,10.96,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-12-03,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4170,7 +4170,7 @@ nwss,nwss_20261016_783a613219a8,2026-10-16,2022-11-26,ID:6,sampling_site,ID:6,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.86,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,7.52,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,7.53,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,16.05,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4180,7 +4180,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-26,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-26,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,9.84,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.52,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.5,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,5.75,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-26,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4204,9 +4204,9 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,10.85,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,9.38,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,9.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,11.68,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,11.69,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,10.65,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4216,7 +4216,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,13.47,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,7.37,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,7.91,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-19,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4240,7 +4240,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,15.53,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.72,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.73,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,8.61,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4252,7 +4252,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,10.65,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.65,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.63,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,4.67,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-12,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4276,7 +4276,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-05,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-05,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,13.98,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.98,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.99,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,6.98,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4288,7 +4288,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-05,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,9.88,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.52,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.51,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,3.58,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-11-05,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4312,7 +4312,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,11.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,7.66,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,7.67,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,5.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4324,7 +4324,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-29,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,13.15,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.15,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.13,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,4.88,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-29,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4348,7 +4348,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,7.55,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.2,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.21,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,4.17,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4360,7 +4360,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,6.96,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.15,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,5.37,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-22,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4384,7 +4384,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,5.3,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.08,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.09,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,4.97,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4396,7 +4396,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:7,sampling_site,ID:7,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,6.5,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.03,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.01,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,4.3,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-15,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4420,7 +4420,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,3.93,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,4.57,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,4.58,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,3.01,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4432,7 +4432,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,2.74,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.1,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.09,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,3.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-08,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4456,7 +4456,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-01,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-01,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,3.25,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.28,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.29,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,3.36,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
@@ -4468,7 +4468,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-01,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,2.05,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,3.3,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,3.29,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,7.02,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-10-01,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4488,7 +4488,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-24,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-24,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,2.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.22,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.23,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,11.43,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-24,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4522,7 +4522,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,2.15,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.07,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.08,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,9.17,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4534,7 +4534,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-17,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,2.1,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.61,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,4.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,5.79,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-17,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4558,7 +4558,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-10,ID:5,sampling_site,ID:5,st
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-10,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,5.91,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,13.85,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4570,7 +4570,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-10,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,2.14,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.21,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.19,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,7.28,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-10,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -4594,9 +4594,9 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-03,ID:5,sampling_site,ID:5,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.76,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.77,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,13.38,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,13.39,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-03,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
@@ -4606,7 +4606,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-03,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.45,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.42,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,11.08,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-09-03,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -4624,7 +4624,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-27,ID:5,sampling_site,ID:5,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:5,sampling_site,ID:5,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.39,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,6.4,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,18.79,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4636,7 +4636,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-27,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.26,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,6.24,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,12.49,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-27,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
@@ -4654,9 +4654,9 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-20,ID:4,sampling_site,ID:4,st
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:4,sampling_site,ID:4,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,7.61,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_level,7.62,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,18.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_level,18.01,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:6,sampling_site,ID:6,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:7,sampling_site,ID:7,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
@@ -4666,7 +4666,7 @@ nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-20,ID:7,sampling_site,ID:7,st
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:7,sampling_site,ID:7,state_territory,Alabama,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.66,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261023_efe83789f765,2026-10-23,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_level,5.64,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_level,9.71,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2022-08-20,ID:8,sampling_site,ID:8,state_territory,Alabama,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed

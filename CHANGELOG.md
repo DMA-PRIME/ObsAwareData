@@ -16,6 +16,16 @@ Each release is tagged `v<version>+<data date>`, for example `v1.0.0+2026-10-16`
 
 Under Semantic Versioning, the part after `+` is build metadata: it does not affect version precedence. Two tags with the same version and different data dates are built with the same rules.
 
+## 2.0.0+2026-10-23 (released 2026-10-25)
+
+Data refresh with newer CDC source releases; the build rules are unchanged.
+
+<!-- auto:changelog_data -->
+- Source releases used, latest of each: NHSN 2026-10-23, NSSP 2026-10-21, NWSS 2026-10-23. Weeks covered: NHSN through 2026-10-17, NSSP through 2026-10-17, NWSS through 2026-10-17.
+- Revision history covers 120 NHSN, 55 NSSP, 12 NWSS releases. Release assets added in this release: 51 increment (see `metadata/release_assets.csv`).
+- Compared with 2.0.0+2026-10-16: 20,296 rows added and 0 removed in the latest-value tables; 191,262 values revised; 12,358 `observation_state` values changed.
+<!-- /auto:changelog_data -->
+
 ## 2.0.0+2026-10-16 (released 2026-10-18)
 
 Data refresh with newer CDC source releases; the build rules are unchanged.
