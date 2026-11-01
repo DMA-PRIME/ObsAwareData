@@ -616,7 +616,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,2.63,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,1.71,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,1.11,percent_ed_visits,flagged_anomalous,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,1.65,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,1.64,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent_smoothed,1.26,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-16,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -701,7 +701,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-15,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,0.69,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.57,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.56,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.1,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.06,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
@@ -745,7 +745,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-14,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,1.37,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,1.44,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,1.43,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.07,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.07,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.23,percent_ed_visits,observed_valid,confirmed
@@ -756,7 +756,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-10-28,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,1.88,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,1.62,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,1.61,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.35,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.26,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-11-25,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.94,percent_ed_visits,observed_valid,confirmed
@@ -1032,8 +1032,8 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,3.31,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,3.05,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,2.87,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,1.88,percent_ed_visits,flagged_anomalous,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,2.89,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,1.89,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,1.05,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent_smoothed,1.32,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-12-23,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -6535,7 +6535,7 @@ nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-30,ID:1198,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_level,15.43,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,10.16,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261030_17b441ce95cb,2026-10-30,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,10.06,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-30,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_category,High,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260821_3af9109b8597,2026-08-21,2023-12-30,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_level,11.61,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-30,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
@@ -6583,7 +6583,7 @@ nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_level,7.98,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,6.7,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261030_17b441ce95cb,2026-10-30,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,6.6,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_category,Moderate,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-23,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_level,7.15,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-23,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -6631,7 +6631,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-16,ID:1198,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_level,6.17,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,11.43,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261030_17b441ce95cb,2026-10-30,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,11.27,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-16,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_category,High,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-16,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_level,7.31,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-16,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
@@ -6679,7 +6679,7 @@ nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:1198,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_level,10.46,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,rsv,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,9.52,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261030_17b441ce95cb,2026-10-30,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_level,9.36,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:1198,sampling_site,ID:1198,state_territory,New Hampshire,covid,wastewater_activity_category,High,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2023-12-09,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_level,7.92,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2023-12-09,ID:2442,sampling_site,ID:2442,state_territory,New Hampshire,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed

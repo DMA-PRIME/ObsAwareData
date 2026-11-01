@@ -469,8 +469,8 @@ nhsn,nhsn_20250404_standard_23033eae00c6,2025-04-04,2024-01-13,Rhode Island,stat
 nhsn,nhsn_20250404_standard_23033eae00c6,2025-04-04,2024-01-13,Rhode Island,state,44,state_abbreviation,RI,rsv,coverage_status,,categorical_coverage_status,structural_absent,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent,1.83,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent_smoothed,1.89,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent,0.44,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.43,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent,0.43,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.42,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent,1.39,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent_smoothed,1.47,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-30,Rhode Island,state,44,state_fips_placeholder,44000,rsv,ed_visit_percent,0.04,percent_ed_visits,observed_valid,confirmed
@@ -778,7 +778,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-23,Rhode Island,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent,1.64,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent_smoothed,1.65,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent,0.43,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.42,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.41,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent,1.2,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent_smoothed,1.23,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-06,Rhode Island,state,44,state_fips_placeholder,44000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
@@ -910,7 +910,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-03-09,Rhode Island,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent,1.25,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,combined,ed_visit_percent_smoothed,1.57,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent,0.29,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.39,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,covid,ed_visit_percent_smoothed,0.38,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent,0.97,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,influenza,ed_visit_percent_smoothed,1.19,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2024-04-13,Rhode Island,state,44,state_fips_placeholder,44000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
