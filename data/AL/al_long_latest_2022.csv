@@ -590,7 +590,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,combined,ed_visit_percent_smoothed,8.67,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,covid,ed_visit_percent,0.99,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,covid,ed_visit_percent_smoothed,0.91,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,influenza,ed_visit_percent,11.68,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261028_standard_837874e58705,2026-10-28,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,influenza,ed_visit_percent,11.69,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,influenza,ed_visit_percent_smoothed,7.35,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,rsv,ed_visit_percent,0.44,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,Alabama,state,01,state_fips_placeholder,1000,rsv,ed_visit_percent_smoothed,0.49,percent_ed_visits,observed_valid,confirmed
