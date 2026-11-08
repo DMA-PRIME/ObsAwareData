@@ -658,7 +658,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,covid,ed_visit_percent,0.47,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,covid,ed_visit_percent_smoothed,0.5,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,influenza,ed_visit_percent,2.64,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2025-03-15,Washington,state,53,state_fips_placeholder,53000,influenza,ed_visit_percent,2.65,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,influenza,ed_visit_percent_smoothed,3.68,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,rsv,ed_visit_percent,0.55,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-03-15,Washington,state,53,state_fips_placeholder,53000,rsv,ed_visit_percent_smoothed,0.63,percent_ed_visits,observed_valid,confirmed
@@ -12202,7 +12202,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2033,sampling_site,ID:2
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2035,sampling_site,ID:2035,state_territory,Washington,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2035,sampling_site,ID:2035,state_territory,Washington,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2035,sampling_site,ID:2035,state_territory,Washington,covid,wastewater_activity_level,4.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2035,sampling_site,ID:2035,state_territory,Washington,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-10-04,ID:2035,sampling_site,ID:2035,state_territory,Washington,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2037,sampling_site,ID:2037,state_territory,Washington,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-04,ID:2037,sampling_site,ID:2037,state_territory,Washington,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-10-04,ID:2037,sampling_site,ID:2037,state_territory,Washington,covid,wastewater_activity_level,11.17,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -14776,7 +14776,7 @@ nwss,nwss_20261016_783a613219a8,2026-10-16,2025-04-26,ID:2058,sampling_site,ID:2
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2059,sampling_site,ID:2059,state_territory,Washington,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2059,sampling_site,ID:2059,state_territory,Washington,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261023_efe83789f765,2026-10-23,2025-04-26,ID:2059,sampling_site,ID:2059,state_territory,Washington,covid,wastewater_activity_level,4.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261023_efe83789f765,2026-10-23,2025-04-26,ID:2059,sampling_site,ID:2059,state_territory,Washington,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-04-26,ID:2059,sampling_site,ID:2059,state_territory,Washington,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2060,sampling_site,ID:2060,state_territory,Washington,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2060,sampling_site,ID:2060,state_territory,Washington,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261023_efe83789f765,2026-10-23,2025-04-26,ID:2060,sampling_site,ID:2060,state_territory,Washington,covid,wastewater_activity_level,20.61,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
@@ -16310,7 +16310,7 @@ nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-11,ID:2038,sampling_site,ID:2
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-01-11,ID:2039,sampling_site,ID:2039,state_territory,Washington,influenza,wastewater_activity_level,14.05,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-01-11,ID:2039,sampling_site,ID:2039,state_territory,Washington,influenza,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-11,ID:2039,sampling_site,ID:2039,state_territory,Washington,covid,wastewater_activity_level,4.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-11,ID:2039,sampling_site,ID:2039,state_territory,Washington,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-01-11,ID:2039,sampling_site,ID:2039,state_territory,Washington,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-01-11,ID:2040,sampling_site,ID:2040,state_territory,Washington,influenza,wastewater_activity_level,21.75,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-11,ID:2040,sampling_site,ID:2040,state_territory,Washington,influenza,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-11,ID:2040,sampling_site,ID:2040,state_territory,Washington,covid,wastewater_activity_level,9.07,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain

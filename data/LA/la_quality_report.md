@@ -7,7 +7,7 @@ Generated from the published files in this folder. Overall result: **all checks 
 - State FIPS code: 22
 - Emergency-department regions (CDC health service areas): 17
 - Wastewater sampling sites: 59 (with COVID-19 data: 59; influenza A: 28; RSV: 8)
-- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-10-30 (97 releases); ED visits 2025-08-15 to 2026-10-28 (51 releases); wastewater 2026-08-07 to 2026-10-30 (13 releases)
+- Source releases cited by the latest values (each row cites the release that first published its current value): hospital admissions 2025-04-04 to 2026-11-06 (98 releases); ED visits 2025-08-15 to 2026-11-04 (52 releases); wastewater 2026-08-07 to 2026-11-06 (14 releases)
 
 ## Files
 
@@ -19,11 +19,11 @@ Generated from the published files in this folder. Overall result: **all checks 
 | `la_long_latest_2023.csv` | 14,666 | 15 | 3.7 |
 | `la_long_latest_2024.csv` | 21,404 | 15 | 5.2 |
 | `la_long_latest_2025.csv` | 15,275 | 15 | 3.8 |
-| `la_long_latest_2026.csv` | 10,379 | 15 | 2.7 |
-| `la_nhsn_wide.csv` | 325 | 24 | 0.1 |
-| `la_nssp_wide.csv` | 3,834 | 30 | 1.5 |
-| `la_nwss_wide.csv` | 4,242 | 24 | 0.8 |
-| `la_all_sources_wide.csv` | 325 | 1,043 | 1.9 |
+| `la_long_latest_2026.csv` | 10,621 | 15 | 2.7 |
+| `la_nhsn_wide.csv` | 326 | 24 | 0.1 |
+| `la_nssp_wide.csv` | 3,852 | 30 | 1.5 |
+| `la_nwss_wide.csv` | 4,244 | 24 | 0.8 |
+| `la_all_sources_wide.csv` | 326 | 1,043 | 1.9 |
 | `la_census_context.csv` | 24 | 6 | 0.0 |
 
 ## Coverage
@@ -32,16 +32,16 @@ A week counts as "with data" when the primary measure (weekly admissions, ED vis
 
 | Source | Pathogen | Regions or sites with data | First week with data | Last week with data |
 |---|---|---|---|---|
-| Hospital admissions (NHSN) | covid | 1 | 2020-08-08 | 2026-10-24 |
-| Hospital admissions (NHSN) | influenza | 1 | 2020-10-17 | 2026-10-24 |
-| Hospital admissions (NHSN) | rsv | 1 | 2024-08-10 | 2026-10-24 |
-| Emergency department visits (NSSP) | covid | 17 | 2022-10-01 | 2026-10-24 |
-| Emergency department visits (NSSP) | influenza | 17 | 2022-10-01 | 2026-10-24 |
-| Emergency department visits (NSSP) | rsv | 17 | 2022-10-01 | 2026-10-24 |
+| Hospital admissions (NHSN) | covid | 1 | 2020-08-08 | 2026-10-31 |
+| Hospital admissions (NHSN) | influenza | 1 | 2020-10-17 | 2026-10-31 |
+| Hospital admissions (NHSN) | rsv | 1 | 2024-08-10 | 2026-10-31 |
+| Emergency department visits (NSSP) | covid | 17 | 2022-10-01 | 2026-10-31 |
+| Emergency department visits (NSSP) | influenza | 17 | 2022-10-01 | 2026-10-31 |
+| Emergency department visits (NSSP) | rsv | 17 | 2022-10-01 | 2026-10-31 |
 | Emergency department visits (NSSP) | combined | 17 | 2022-10-01 | 2024-09-28 |
-| Wastewater (NWSS) | covid | 59 | 2022-05-14 | 2026-10-24 |
-| Wastewater (NWSS) | influenza | 28 | 2023-12-02 | 2026-10-24 |
-| Wastewater (NWSS) | rsv | 8 | 2023-12-02 | 2026-10-24 |
+| Wastewater (NWSS) | covid | 59 | 2022-05-14 | 2026-10-31 |
+| Wastewater (NWSS) | influenza | 28 | 2023-12-02 | 2026-10-31 |
+| Wastewater (NWSS) | rsv | 8 | 2023-12-02 | 2026-10-31 |
 
 ## Reliability flags
 
@@ -49,16 +49,16 @@ Number of rows in `la_long_latest_<year>.csv` (all years) by source, measure, an
 
 | Source | Measure | observed_valid | observed_zero | observed_low_coverage | flagged_anomalous | incidental_missing | structural_absent |
 |---|---|---|---|---|---|---|---|
-| NHSN | coverage_status | 694 | 0 | 72 | 0 | 0 | 209 |
-| NHSN | hospital_admission_count | 700 | 12 | 0 | 44 | 10 | 209 |
-| NHSN | hospital_reporting_count | 756 | 10 | 0 | 0 | 0 | 209 |
-| NSSP | ed_trend_category | 9,913 | 0 | 1,589 | 0 | 0 | 0 |
-| NSSP | ed_visit_percent | 10,359 | 2,289 | 0 | 0 | 2,688 | 0 |
-| NSSP | ed_visit_percent_smoothed | 10,140 | 213 | 0 | 1,443 | 3,540 | 0 |
-| NSSP | participation_status | 2,343 | 0 | 1,278 | 0 | 0 | 0 |
-| NWSS | participation_status | 4,614 | 0 | 1,499 | 0 | 0 | 0 |
-| NWSS | wastewater_activity_category | 5,405 | 0 | 0 | 708 | 0 | 0 |
-| NWSS | wastewater_activity_level | 5,405 | 0 | 0 | 708 | 0 | 0 |
+| NHSN | coverage_status | 697 | 0 | 72 | 0 | 0 | 209 |
+| NHSN | hospital_admission_count | 702 | 12 | 0 | 45 | 10 | 209 |
+| NHSN | hospital_reporting_count | 759 | 10 | 0 | 0 | 0 | 209 |
+| NSSP | ed_trend_category | 9,960 | 0 | 1,596 | 0 | 0 | 0 |
+| NSSP | ed_visit_percent | 10,404 | 2,295 | 0 | 0 | 2,709 | 0 |
+| NSSP | ed_visit_percent_smoothed | 10,194 | 208 | 0 | 1,441 | 3,565 | 0 |
+| NSSP | participation_status | 2,354 | 0 | 1,284 | 0 | 0 | 0 |
+| NWSS | participation_status | 4,400 | 0 | 1,719 | 0 | 0 | 0 |
+| NWSS | wastewater_activity_category | 5,409 | 0 | 0 | 710 | 0 | 0 |
+| NWSS | wastewater_activity_level | 5,409 | 0 | 0 | 710 | 0 | 0 |
 
 Thresholds behind `observed_low_coverage` and `flagged_anomalous` for this state (method in `METHODS.md`):
 
@@ -77,13 +77,13 @@ Census margin-of-error variables carrying the Census Bureau's negative placehold
 
 Location: GitHub Release assets, not stored in the repository. `metadata/release_assets.csv` lists this state's files in order, with download links and checksums: one `full` file, then one `increment` per later release holding only the source snapshots first published in it. Concatenating them in that order, keeping only the first header line, gives the complete table described here.
 
-Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 2,770,196 rows covering 67,059 distinct values. Of those, 21,702 (32.4%) took more than one distinct value across snapshots, i.e. were revised after first publication.
+Every published version of every value, one row per (source, week, region, pathogen, measure, source snapshot): 2,840,326 rows covering 67,301 distinct values. Of those, 22,043 (32.8%) took more than one distinct value across snapshots, i.e. were revised after first publication.
 
 | Source | Snapshots | Earliest snapshot | Latest snapshot | Rows |
 |---|---|---|---|---|
-| NHSN | 122 | 2025-04-04 | 2026-10-30 | 320,400 |
-| NSSP | 56 | 2025-08-15 | 2026-10-28 | 2,214,500 |
-| NWSS | 13 | 2026-08-07 | 2026-10-30 | 235,296 |
+| NHSN | 124 | 2025-04-04 | 2026-11-06 | 326,268 |
+| NSSP | 57 | 2025-08-15 | 2026-11-04 | 2,260,510 |
+| NWSS | 14 | 2026-08-07 | 2026-11-06 | 253,548 |
 
 ## Consistency checks
 
@@ -91,11 +91,11 @@ Every published version of every value, one row per (source, week, region, patho
 |---|---|---|
 | `la_long_latest_<year>.csv`: each file holds only weeks ending in its year | PASS | 7 files (2020, 2021, 2022, 2023, 2024, 2025, 2026); 0 rows in the wrong file |
 | Long table: one row per (source, week, region type, region, pathogen, measure) | PASS | 0 duplicate keys |
-| `la_nhsn_wide.csv` matches the long table | PASS | 2,925 cells; missing 0, unexpected 0, differing 0 |
-| `la_nssp_wide.csv` matches the long table | PASS | 45,795 cells; missing 0, unexpected 0, differing 0 |
-| `la_nwss_wide.csv` matches the long table | PASS | 18,339 cells; missing 0, unexpected 0, differing 0 |
-| `la_all_sources_wide.csv` matches the long table | PASS | 67,059 cells; missing 0, unexpected 0, differing 0 |
+| `la_nhsn_wide.csv` matches the long table | PASS | 2,934 cells; missing 0, unexpected 0, differing 0 |
+| `la_nssp_wide.csv` matches the long table | PASS | 46,010 cells; missing 0, unexpected 0, differing 0 |
+| `la_nwss_wide.csv` matches the long table | PASS | 18,357 cells; missing 0, unexpected 0, differing 0 |
+| `la_all_sources_wide.csv` matches the long table | PASS | 67,301 cells; missing 0, unexpected 0, differing 0 |
 | `la_all_sources_wide.csv` census columns match `la_census_context.csv` | PASS | 24 columns, constant across all weeks |
-| All-sources table has one row per week, weekly with no gaps, covering every week in the long table | PASS | 325 weeks, 2020-08-08 to 2026-10-24 |
+| All-sources table has one row per week, weekly with no gaps, covering every week in the long table | PASS | 326 weeks, 2020-08-08 to 2026-10-31 |
 | Revision history: one row per (key, source snapshot) | PASS | 0 duplicates |
 | Every latest-table row appears, with the same value, in the revision history | PASS | 0 missing, 0 differing |

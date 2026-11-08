@@ -485,7 +485,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,0.83,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,0.67,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-05,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-12,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-12,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
@@ -514,7 +514,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.58,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.62,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,5.48,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,4.56,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,1.94,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,1.38,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,1.44,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-17,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
@@ -536,11 +536,11 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.89,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.4,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,0.18,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,0.15,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,0.15,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,0.64,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,0.46,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-29,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-10,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-10,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
@@ -569,18 +569,18 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.04,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.38,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,2.65,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,3.89,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,3.52,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,0.87,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,1.12,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-31,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.05,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.25,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,0.12,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,0.07,percent_ed_visits,flagged_anomalous,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,1.96,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,0.21,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,0.12,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-15,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -591,11 +591,11 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.28,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.2,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,0.17,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,0.12,percent_ed_visits,flagged_anomalous,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,1.98,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,0.53,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,0.27,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-10-22,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-19,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-11-19,South Dakota,state,46,state_fips_placeholder,46000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
@@ -624,7 +624,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent,1.54,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_visit_percent_smoothed,1.58,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent,3.49,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,4.49,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,influenza,ed_visit_percent_smoothed,3.94,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent,1.09,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,rsv,ed_visit_percent_smoothed,1.36,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2022-12-24,South Dakota,state,46,state_fips_placeholder,46000,covid,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain

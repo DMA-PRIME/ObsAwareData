@@ -3222,7 +3222,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,s
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,covid,ed_visit_percent,0.27,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,covid,ed_visit_percent_smoothed,0.33,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,influenza,ed_visit_percent,7.44,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,influenza,ed_visit_percent_smoothed,4.33,percent_ed_visits,flagged_anomalous,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,influenza,ed_visit_percent_smoothed,4.32,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,rsv,ed_visit_percent,0.49,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,rsv,ed_visit_percent_smoothed,0.32,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2025-12-20,Alaska,state,02,state_fips_placeholder,2000,covid,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
@@ -3559,7 +3559,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-27,ID:16,sampling_site,ID:16,
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-27,ID:16,sampling_site,ID:16,state_territory,Alaska,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-12-27,ID:16,sampling_site,ID:16,state_territory,Alaska,covid,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-27,ID:16,sampling_site,ID:16,state_territory,Alaska,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-12-27,ID:2340,sampling_site,ID:2340,state_territory,Alaska,influenza,wastewater_activity_level,4.61,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-12-27,ID:2340,sampling_site,ID:2340,state_territory,Alaska,influenza,wastewater_activity_level,4.6,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260904_3557f6e82d20,2026-09-04,2025-12-27,ID:2340,sampling_site,ID:2340,state_territory,Alaska,influenza,wastewater_activity_category,Low,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-12-27,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_level,2.72,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-12-27,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_category,Low,ordinal_category,flagged_anomalous,confirmed
@@ -3771,7 +3771,7 @@ nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-11-08,ID:16,sampling_site,ID:16,
 nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-11-08,ID:16,sampling_site,ID:16,state_territory,Alaska,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
-nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_level,172.45,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_level,194.4,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_category,Very High,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20261023_efe83789f765,2026-10-23,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,covid,wastewater_activity_level,2.31,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-11-08,ID:2340,sampling_site,ID:2340,state_territory,Alaska,covid,wastewater_activity_category,Very Low,ordinal_category,flagged_anomalous,confirmed
@@ -3846,7 +3846,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:14,sampling_site,ID:14,
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:14,sampling_site,ID:14,state_territory,Alaska,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:14,sampling_site,ID:14,state_territory,Alaska,rsv,wastewater_activity_category,Very Low,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20261030_17b441ce95cb,2026-10-30,2025-10-18,ID:14,sampling_site,ID:14,state_territory,Alaska,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
-nwss,nwss_20261016_783a613219a8,2026-10-16,2025-10-18,ID:14,sampling_site,ID:14,state_territory,Alaska,covid,wastewater_activity_category,Low,ordinal_category,flagged_anomalous,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-10-18,ID:14,sampling_site,ID:14,state_territory,Alaska,covid,wastewater_activity_category,Very Low,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:15,sampling_site,ID:15,state_territory,Alaska,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:15,sampling_site,ID:15,state_territory,Alaska,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:15,sampling_site,ID:15,state_territory,Alaska,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -4434,7 +4434,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2340,sampling_site,ID:2
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:2340,sampling_site,ID:2340,state_territory,Alaska,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261023_efe83789f765,2026-10-23,2025-04-26,ID:2340,sampling_site,ID:2340,state_territory,Alaska,covid,wastewater_activity_level,4.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261023_efe83789f765,2026-10-23,2025-04-26,ID:2340,sampling_site,ID:2340,state_territory,Alaska,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-04-26,ID:2340,sampling_site,ID:2340,state_territory,Alaska,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-04-19,ID:13,sampling_site,ID:13,state_territory,Alaska,influenza,wastewater_activity_level,2.92,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-19,ID:13,sampling_site,ID:13,state_territory,Alaska,influenza,wastewater_activity_category,Low,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-04-19,ID:13,sampling_site,ID:13,state_territory,Alaska,rsv,wastewater_activity_level,3.05,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
