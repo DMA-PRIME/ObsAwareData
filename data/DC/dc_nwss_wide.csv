@@ -15,7 +15,7 @@ ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-08-20,full
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-08-27,full_participation,observed_valid,,,,,Low,observed_valid,,,,,2.91,observed_valid,,,,
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-09-03,full_participation,observed_valid,,,,,Low,observed_valid,,,,,3.88,observed_valid,,,,
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-09-10,full_participation,observed_valid,,,,,Low,observed_valid,,,,,4.11,observed_valid,,,,
-ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-09-17,full_participation,observed_valid,,,,,Low,observed_valid,,,,,2.6,observed_valid,,,,
+ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-09-17,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,2.6,observed_valid,,,,
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-10-01,full_participation,observed_valid,,,,,Low,observed_valid,,,,,3.3,observed_valid,,,,
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-10-08,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.68,observed_valid,,,,
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2022-10-15,full_participation,observed_valid,,,,,Low,observed_valid,,,,,2.69,observed_valid,,,,
@@ -219,3 +219,4 @@ ID:300,sampling_site,ID:300,state_territory,District of Columbia,2026-08-29,full
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2026-09-05,full_participation,observed_valid,full_participation,observed_valid,full_participation,observed_valid,High,observed_valid,Very Low,observed_valid,Very Low,observed_valid,9.07,observed_valid,1.0,observed_valid,1.0,observed_valid
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2026-09-12,full_participation,observed_valid,full_participation,observed_valid,full_participation,observed_valid,High,observed_valid,Very Low,observed_valid,Very Low,observed_valid,8.34,observed_valid,1.0,observed_valid,1.0,observed_valid
 ID:300,sampling_site,ID:300,state_territory,District of Columbia,2026-10-24,full_participation,observed_valid,full_participation,observed_valid,full_participation,observed_valid,Low,observed_valid,Very Low,observed_valid,Very Low,observed_valid,3.94,observed_valid,1.0,observed_valid,1.0,observed_valid
+ID:300,sampling_site,ID:300,state_territory,District of Columbia,2026-10-31,full_participation,observed_valid,full_participation,observed_valid,full_participation,observed_valid,Very High,flagged_anomalous,Low,observed_valid,Very Low,observed_valid,14.26,flagged_anomalous,3.68,observed_valid,1.0,observed_valid

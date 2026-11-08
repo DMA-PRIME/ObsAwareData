@@ -538,7 +538,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,0.23,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.25,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.08,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.12,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.09,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.04,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.02,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-24,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -681,7 +681,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,0.68,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.62,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.04,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.02,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -813,7 +813,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,0.13,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.32,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.13,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.13,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.12,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.0,percent_ed_visits,observed_zero,confirmed
 nssp,nssp_20261014_standard_8901b30d2284,2026-10-14,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.04,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Decreasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -978,7 +978,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,0.64,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.56,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.08,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,flagged_anomalous,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.12,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -989,7 +989,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,1.09,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.81,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.04,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain
@@ -1000,7 +1000,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,stat
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent,0.86,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_visit_percent_smoothed,0.88,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent,0.05,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261104_standard_47ec1ecac7bd,2026-11-04,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,flagged_anomalous,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,rsv,ed_visit_percent_smoothed,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-26,North Dakota,state,38,state_fips_placeholder,38000,covid,ed_trend_category,Increasing,categorical_trend,observed_valid,observed_definition_uncertain

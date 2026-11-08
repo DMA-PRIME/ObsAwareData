@@ -19726,7 +19726,7 @@ nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-12-06,ID:1673,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-06,ID:1674,sampling_site,ID:1674,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-06,ID:1674,sampling_site,ID:1674,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-12-06,ID:1674,sampling_site,ID:1674,state_territory,Ohio,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261016_783a613219a8,2026-10-16,2025-12-06,ID:1674,sampling_site,ID:1674,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-12-06,ID:1674,sampling_site,ID:1674,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-06,ID:1677,sampling_site,ID:1677,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-06,ID:1677,sampling_site,ID:1677,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-12-06,ID:1677,sampling_site,ID:1677,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -20914,7 +20914,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1622,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1622,sampling_site,ID:1622,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1622,sampling_site,ID:1622,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-11-08,ID:1622,sampling_site,ID:1622,state_territory,Ohio,covid,wastewater_activity_level,7.9,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
-nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-11-08,ID:1622,sampling_site,ID:1622,state_territory,Ohio,covid,wastewater_activity_category,High,ordinal_category,flagged_anomalous,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-11-08,ID:1622,sampling_site,ID:1622,state_territory,Ohio,covid,wastewater_activity_category,Moderate,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1630,sampling_site,ID:1630,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1630,sampling_site,ID:1630,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-11-08,ID:1630,sampling_site,ID:1630,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -21916,7 +21916,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1649,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1649,sampling_site,ID:1649,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1649,sampling_site,ID:1649,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-10-18,ID:1649,sampling_site,ID:1649,state_territory,Ohio,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-10-18,ID:1649,sampling_site,ID:1649,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-10-18,ID:1649,sampling_site,ID:1649,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1652,sampling_site,ID:1652,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1652,sampling_site,ID:1652,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-10-18,ID:1652,sampling_site,ID:1652,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -24732,7 +24732,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1604,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1604,sampling_site,ID:1604,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1604,sampling_site,ID:1604,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-08-16,ID:1604,sampling_site,ID:1604,state_territory,Ohio,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-08-16,ID:1604,sampling_site,ID:1604,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-08-16,ID:1604,sampling_site,ID:1604,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1607,sampling_site,ID:1607,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1607,sampling_site,ID:1607,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-16,ID:1607,sampling_site,ID:1607,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -24998,7 +24998,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-09,ID:1559,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-09,ID:1559,sampling_site,ID:1559,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-09,ID:1559,sampling_site,ID:1559,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-08-09,ID:1559,sampling_site,ID:1559,state_territory,Ohio,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261016_783a613219a8,2026-10-16,2025-08-09,ID:1559,sampling_site,ID:1559,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-08-09,ID:1559,sampling_site,ID:1559,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-09,ID:1564,sampling_site,ID:1564,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-08-09,ID:1564,sampling_site,ID:1564,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-08-09,ID:1564,sampling_site,ID:1564,state_territory,Ohio,covid,wastewater_activity_level,6.05,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -30166,7 +30166,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1540,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1540,sampling_site,ID:1540,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1540,sampling_site,ID:1540,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-04-26,ID:1540,sampling_site,ID:1540,state_territory,Ohio,covid,wastewater_activity_level,2.6,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1540,sampling_site,ID:1540,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-04-26,ID:1540,sampling_site,ID:1540,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1542,sampling_site,ID:1542,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1542,sampling_site,ID:1542,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-04-26,ID:1542,sampling_site,ID:1542,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -34452,7 +34452,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-02-08,ID:1511,sampling_site,ID:1
 nwss,nwss_20261009_51c9cf708feb,2026-10-09,2025-02-08,ID:1511,sampling_site,ID:1511,state_territory,Ohio,covid,wastewater_activity_level,3.41,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-02-08,ID:1511,sampling_site,ID:1511,state_territory,Ohio,covid,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-02-08,ID:1512,sampling_site,ID:1512,state_territory,Ohio,influenza,wastewater_activity_level,5.5,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-02-08,ID:1512,sampling_site,ID:1512,state_territory,Ohio,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-02-08,ID:1512,sampling_site,ID:1512,state_territory,Ohio,influenza,wastewater_activity_category,Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-02-08,ID:1512,sampling_site,ID:1512,state_territory,Ohio,covid,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-02-08,ID:1512,sampling_site,ID:1512,state_territory,Ohio,covid,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260814_8231892d6e9c,2026-08-14,2025-02-08,ID:1514,sampling_site,ID:1514,state_territory,Ohio,influenza,wastewater_activity_level,50.32,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
@@ -36412,7 +36412,7 @@ nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1527,sampling_site,ID:1
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1527,sampling_site,ID:1527,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,flagged_anomalous,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1527,sampling_site,ID:1527,state_territory,Ohio,rsv,wastewater_activity_category,Very Low,ordinal_category,flagged_anomalous,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-04,ID:1527,sampling_site,ID:1527,state_territory,Ohio,covid,wastewater_activity_level,7.9,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
-nwss,nwss_20261016_783a613219a8,2026-10-16,2025-01-04,ID:1527,sampling_site,ID:1527,state_territory,Ohio,covid,wastewater_activity_category,High,ordinal_category,observed_valid,confirmed
+nwss,nwss_20261106_6c1e7575d52c,2026-11-06,2025-01-04,ID:1527,sampling_site,ID:1527,state_territory,Ohio,covid,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1528,sampling_site,ID:1528,state_territory,Ohio,influenza,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1528,sampling_site,ID:1528,state_territory,Ohio,influenza,wastewater_activity_category,Very Low,ordinal_category,observed_valid,confirmed
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2025-01-04,ID:1528,sampling_site,ID:1528,state_territory,Ohio,rsv,wastewater_activity_level,1.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
