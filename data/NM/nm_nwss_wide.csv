@@ -383,6 +383,7 @@ ID:1227,sampling_site,ID:1227,state_territory,New Mexico,2026-10-03,full_partici
 ID:1227,sampling_site,ID:1227,state_territory,New Mexico,2026-10-10,full_participation,observed_valid,,,,,Very Low,flagged_anomalous,,,,,1.99,flagged_anomalous,,,,
 ID:1227,sampling_site,ID:1227,state_territory,New Mexico,2026-10-24,full_participation,observed_valid,,,,,Low,observed_valid,,,,,2.68,observed_valid,,,,
 ID:1227,sampling_site,ID:1227,state_territory,New Mexico,2026-10-31,full_participation,observed_valid,,,,,Moderate,observed_valid,,,,,5.54,observed_valid,,,,
+ID:1227,sampling_site,ID:1227,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,2.48,observed_valid,,,,
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2022-05-21,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.0,observed_valid,,,,
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2022-05-28,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.0,observed_valid,,,,
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2022-06-04,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.0,observed_valid,,,,
@@ -594,6 +595,7 @@ ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2026-10-10,full_partici
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2026-10-17,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.82,observed_valid,,,,
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2026-10-24,full_participation,observed_valid,,,,,Low,observed_valid,,,,,3.43,observed_valid,,,,
 ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2026-10-31,full_participation,observed_valid,,,,,Low,observed_valid,,,,,3.59,observed_valid,,,,
+ID:1232,sampling_site,ID:1232,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,,,,,Very Low,observed_valid,,,,,1.31,observed_valid,,,,
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2024-03-02,full_participation,observed_valid,,,,,High,observed_valid,,,,,10.93,observed_valid,,,,
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2024-03-09,full_participation,observed_valid,,,,,Moderate,observed_valid,,,,,6.11,observed_valid,,,,
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2024-03-16,full_participation,observed_valid,,,,,Low,observed_valid,,,,,3.61,observed_valid,,,,
@@ -734,6 +736,7 @@ ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2026-10-10,full_partici
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2026-10-17,full_participation,observed_valid,,,,,High,observed_valid,,,,,8.86,observed_valid,,,,
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2026-10-24,full_participation,observed_valid,,,,,Moderate,observed_valid,,,,,6.29,observed_valid,,,,
 ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2026-10-31,full_participation,observed_valid,,,,,Low,observed_valid,,,,,2.96,observed_valid,,,,
+ID:1233,sampling_site,ID:1233,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,,,,,High,observed_valid,,,,,8.85,observed_valid,,,,
 ID:1234,sampling_site,ID:1234,state_territory,New Mexico,2022-07-23,reduced_participation,observed_low_coverage,,,,,High,observed_valid,,,,,10.36,observed_valid,,,,
 ID:1234,sampling_site,ID:1234,state_territory,New Mexico,2022-07-30,reduced_participation,observed_low_coverage,,,,,High,observed_valid,,,,,9.86,observed_valid,,,,
 ID:1234,sampling_site,ID:1234,state_territory,New Mexico,2022-08-06,reduced_participation,observed_low_coverage,,,,,Very High,observed_valid,,,,,12.65,observed_valid,,,,
@@ -1108,6 +1111,7 @@ ID:1238,sampling_site,ID:1238,state_territory,New Mexico,2026-10-10,full_partici
 ID:1238,sampling_site,ID:1238,state_territory,New Mexico,2026-10-17,full_participation,observed_valid,,,,,Very High,flagged_anomalous,,,,,23.1,flagged_anomalous,,,,
 ID:1238,sampling_site,ID:1238,state_territory,New Mexico,2026-10-24,full_participation,observed_valid,,,,,High,observed_valid,,,,,9.55,observed_valid,,,,
 ID:1238,sampling_site,ID:1238,state_territory,New Mexico,2026-10-31,full_participation,observed_valid,,,,,Very Low,flagged_anomalous,,,,,1.36,flagged_anomalous,,,,
+ID:1238,sampling_site,ID:1238,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,,,,,Very High,flagged_anomalous,,,,,32.4,flagged_anomalous,,,,
 ID:1239,sampling_site,ID:1239,state_territory,New Mexico,2023-02-18,reduced_participation,observed_low_coverage,,,,,Moderate,observed_valid,,,,,5.39,observed_valid,,,,
 ID:1239,sampling_site,ID:1239,state_territory,New Mexico,2023-02-25,reduced_participation,observed_low_coverage,,,,,High,observed_valid,,,,,10.39,observed_valid,,,,
 ID:1239,sampling_site,ID:1239,state_territory,New Mexico,2023-03-04,reduced_participation,observed_low_coverage,,,,,Moderate,observed_valid,,,,,6.99,observed_valid,,,,
@@ -1448,6 +1452,7 @@ ID:1241,sampling_site,ID:1241,state_territory,New Mexico,2026-10-03,full_partici
 ID:1241,sampling_site,ID:1241,state_territory,New Mexico,2026-10-10,full_participation,observed_valid,,,,,Moderate,observed_valid,,,,,7.15,observed_valid,,,,
 ID:1241,sampling_site,ID:1241,state_territory,New Mexico,2026-10-17,full_participation,observed_valid,,,,,Moderate,observed_valid,,,,,6.74,observed_valid,,,,
 ID:1241,sampling_site,ID:1241,state_territory,New Mexico,2026-10-24,full_participation,observed_valid,,,,,Very High,observed_valid,,,,,14.31,observed_valid,,,,
+ID:1241,sampling_site,ID:1241,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,,,,,High,observed_valid,,,,,10.27,observed_valid,,,,
 ID:1242,sampling_site,ID:1242,state_territory,New Mexico,2022-05-14,reduced_participation,observed_low_coverage,,,,,Moderate,observed_valid,,,,,4.34,observed_valid,,,,
 ID:1242,sampling_site,ID:1242,state_territory,New Mexico,2022-05-28,reduced_participation,observed_low_coverage,,,,,Very High,observed_valid,,,,,8.74,observed_valid,,,,
 ID:1242,sampling_site,ID:1242,state_territory,New Mexico,2022-06-11,reduced_participation,observed_low_coverage,,,,,Very High,observed_valid,,,,,34.29,observed_valid,,,,
@@ -1677,3 +1682,4 @@ ID:1243,sampling_site,ID:1243,state_territory,New Mexico,2026-08-22,full_partici
 ID:1243,sampling_site,ID:1243,state_territory,New Mexico,2026-08-29,full_participation,observed_valid,reduced_participation,observed_low_coverage,reduced_participation,observed_low_coverage,Low,observed_valid,Very Low,observed_valid,Very Low,observed_valid,4.15,observed_valid,1.0,observed_valid,1.0,observed_valid
 ID:1243,sampling_site,ID:1243,state_territory,New Mexico,2026-09-05,full_participation,observed_valid,reduced_participation,observed_low_coverage,reduced_participation,observed_low_coverage,High,observed_valid,Very Low,observed_valid,Very Low,observed_valid,10.13,observed_valid,1.0,observed_valid,1.0,observed_valid
 ID:1243,sampling_site,ID:1243,state_territory,New Mexico,2026-09-12,full_participation,observed_valid,reduced_participation,observed_low_coverage,reduced_participation,observed_low_coverage,Very High,observed_valid,Very Low,observed_valid,Very Low,observed_valid,13.01,observed_valid,1.0,observed_valid,1.0,observed_valid
+ID:1243,sampling_site,ID:1243,state_territory,New Mexico,2026-11-07,full_participation,observed_valid,reduced_participation,observed_low_coverage,reduced_participation,observed_low_coverage,Low,flagged_anomalous,Moderate,observed_valid,Very Low,observed_valid,3.95,flagged_anomalous,9.19,observed_valid,1.0,observed_valid

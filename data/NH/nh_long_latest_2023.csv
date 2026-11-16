@@ -711,8 +711,8 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-29,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_trend_category,No Change,categorical_trend,observed_valid,observed_definition_uncertain
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,0.86,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.67,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261112_standard_e5415c47b084,2026-11-12,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,0.88,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261112_standard_e5415c47b084,2026-11-12,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.68,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.05,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-05,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.0,percent_ed_visits,observed_zero,confirmed
@@ -811,7 +811,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-06-17,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,0.86,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.91,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261112_standard_e5415c47b084,2026-11-12,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.92,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.05,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.03,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-19,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.0,percent_ed_visits,observed_zero,confirmed
@@ -976,7 +976,7 @@ nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-07-22,New Hampshire,sta
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,combined,ed_visit_percent_smoothed,,percent_ed_visits,incidental_missing,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent,1.0,percent_ed_visits,observed_valid,confirmed
-nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.85,percent_ed_visits,observed_valid,confirmed
+nssp,nssp_20261112_standard_e5415c47b084,2026-11-12,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,covid,ed_visit_percent_smoothed,0.86,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent,0.02,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,influenza,ed_visit_percent_smoothed,0.04,percent_ed_visits,observed_valid,confirmed
 nssp,nssp_20261007_standard_20f6ca281b6a,2026-10-07,2023-08-12,New Hampshire,state,33,state_fips_placeholder,33000,rsv,ed_visit_percent,0.0,percent_ed_visits,observed_zero,confirmed

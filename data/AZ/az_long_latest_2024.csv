@@ -4875,7 +4875,7 @@ nwss,nwss_20260821_3af9109b8597,2026-08-21,2024-12-21,ID:33,sampling_site,ID:33,
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2024-12-21,ID:33,sampling_site,ID:33,state_territory,Arizona,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261016_783a613219a8,2026-10-16,2024-12-21,ID:33,sampling_site,ID:33,state_territory,Arizona,covid,wastewater_activity_level,12.13,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2024-12-21,ID:33,sampling_site,ID:33,state_territory,Arizona,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
-nwss,nwss_20260821_3af9109b8597,2026-08-21,2024-12-21,ID:34,sampling_site,ID:34,state_territory,Arizona,influenza,wastewater_activity_level,9.0,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
+nwss,nwss_20261113_11e03dedbccf,2026-11-13,2024-12-21,ID:34,sampling_site,ID:34,state_territory,Arizona,influenza,wastewater_activity_level,8.83,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260821_3af9109b8597,2026-08-21,2024-12-21,ID:34,sampling_site,ID:34,state_territory,Arizona,influenza,wastewater_activity_category,Moderate,ordinal_category,observed_valid,confirmed
 nwss,nwss_20261023_efe83789f765,2026-10-23,2024-12-21,ID:34,sampling_site,ID:34,state_territory,Arizona,covid,wastewater_activity_level,22.07,wval_index_not_cross_pathogen_comparable,observed_valid,observed_definition_uncertain
 nwss,nwss_20260807_a52a3730c376,2026-08-07,2024-12-21,ID:34,sampling_site,ID:34,state_territory,Arizona,covid,wastewater_activity_category,Very High,ordinal_category,observed_valid,confirmed
