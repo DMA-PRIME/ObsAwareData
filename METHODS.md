@@ -4,7 +4,7 @@ This document describes how the published tables were built from the public sour
 
 ## 1. Processing overview
 
-1. **Register every source release.** Each downloaded nationwide file (<!-- auto:releases_nhsn -->128<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->59<!-- /auto:releases_nssp --> NSSP, <!-- auto:releases_nwss -->16<!-- /auto:releases_nwss --> NWSS releases, plus the Census extracts) is kept unmodified and registered with its release date and SHA-256 hash. Earlier releases are never overwritten by later ones.
+1. **Register every source release.** Each downloaded nationwide file (<!-- auto:releases_nhsn -->128<!-- /auto:releases_nhsn --> NHSN, <!-- auto:releases_nssp -->59<!-- /auto:releases_nssp --> NSSP, <!-- auto:releases_nwss -->16<!-- /auto:releases_nwss --> NWSS releases, plus the Census extracts) is archived and registered with its release date and SHA-256 hash (from 2026-11-25 on, rebuilt from the data.cdc.gov API download in the former file layout; see [DATA_SOURCES.md](DATA_SOURCES.md)). Earlier releases are never overwritten by later ones.
 2. **Filter to the state.** Each state's rows are selected from the nationwide files. National, regional, and territory records are excluded.
 3. **Standardize to one long schema.** Every value becomes one row: source, release, week, region, pathogen, measure, value, unit, reliability flag, definition status. Only the fields listed in [DATA_SOURCES.md](DATA_SOURCES.md) are kept.
 4. **Build the revision history and the latest view.**
